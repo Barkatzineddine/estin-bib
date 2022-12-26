@@ -1,0 +1,122 @@
+[
+    {
+        "year":"1CP",
+        "modules_S1":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ],
+        "modules_S2":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ]
+
+    },
+    {
+        "year":"2CP",
+        "modules_S1":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+          
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ],
+        "modules_S2":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+        
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ]
+
+    },
+    {
+        "year":"1CS",
+        "modules_S1":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+          
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ],
+        "modules_S2":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+           
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ]
+
+    },
+    {
+        "year":"2CS",
+        "modules_S1":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ],
+        "modules_S2":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ]
+
+    },
+    {
+        "year":"3CS",
+        "modules_S1":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ],
+        "modules_S2":[
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            
+            {"module_name":"ANA1_analyse mathematique","active":false}
+        ]
+
+    }
+]

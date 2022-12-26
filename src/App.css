@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  position: relative;
+  
+}
+.blur1{
+  position: absolute;
+  width: 554px;
+  height: 554px;
+  left: -108px;
+  top: -256px;
+  background: rgba(255, 255, 255, 0.3);
+  filter: blur(100px);
+}
+.blur2{
+  position: absolute;
+left: 79.17%;
+right: -17.64%;
+top: 350px;
+height: 300px;
+z-index: 1;
+background: rgba(255, 255, 255, 0.3);
+filter: blur(100px);
+}
+.CCP{
+  background-color: #EAEEF2;
+  padding-bottom: 10px;
+  padding-top: 60px;
+}
+.CCS{
+  background-image:url("../public/CCS.svg") ;
+  
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #EAEEF2;
+  padding-top: 120px;
+  
+}
+.left1{
+  position: absolute;
+  width: 170.91px;
+  height: 114.56px;
+  left: 28px;
+  top: 122.56px;
+}
+.left2{
+  position: absolute;
+  /* left: -12.29%; */
+  right: 94.31%;
+  top: 200px;
+  bottom: 90.62%;
+    
+}
+.right{
+ 
+position: absolute;
+    width: 118.53px;
+    height: 142.8px;
+    /* left: 1281px; */
+    right: 20px;
+    top: 158.93px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}

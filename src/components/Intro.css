@@ -1,0 +1,54 @@
+.intro{
+    background-color: #4B7BEC;
+    position: relative;
+    width: 100%;
+     
+     padding-bottom: 0;
+     height: 75vh;
+     display: flex;
+     flex-direction: column;
+     color: white;
+     font-family: 'Poppins';
+    font-style: normal; 
+     align-items: center;
+     padding-top: 200px;
+     z-index: -1;
+     
+    
+}
+.intro span{
+    color: white;
+     font-family: 'Poppins';
+    font-style: normal; 
+}
+.intro h1{
+    margin: 0px !important;
+}
+
+
+.bib{
+    position: absolute;
+    bottom: -170px;
+    width: 85%;
+    height: 75%;
+    z-index: 0;
+
+     
+}
+.vecteur{
+    position: absolute;
+    width: 100%;
+    bottom:-30px;
+    
+}
+
+@media screen and (max-width:1000px){
+
+    .bib{
+        bottom: -180px;
+    }
+    .intro{
+        height: 65vh;
+    }
+  
+}

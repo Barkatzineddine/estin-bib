@@ -1,0 +1,242 @@
+.Cp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-top: 60px;
+    
+}
+.Cs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins';
+    padding-top: 60px;
+    background-color: white;
+}
+
+.Cs:last-child{
+padding-bottom: 150px;
+}
+
+.title_cp{
+
+    width: 50px;
+   
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    
+    background: #4B7BEC;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;    
+    padding: 5px 30px 5px 30px;
+    color: #FFFFFF;    
+}
+.title_cs{
+
+    width: 50px;
+   
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    
+    
+    background-color: #FA8231;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;    
+    padding: 5px 30px 5px 30px;
+    color: #FFFFFF;    
+}
+.semestres{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    padding-top:  50px;
+}
+header{
+    z-index: 1;
+    position: relative;
+    background-color:#4B7BEC ;
+    color: white;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.132);
+    border-radius: 8px 8px 0px 0px;
+    font-family: 'Poppins';
+    font-size: 19px;
+    padding: 15px 0 15px 0;
+    font-weight: bold;
+}
+.semestre_1,.semestre_2{
+    width: 45%;
+}
+.modules{
+    position: relative;
+    z-index: 0;
+    background-color: white;
+    padding: 3px 10px 10px 10px;
+    border-radius: 0px 0px 8px 8px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+}
+.module{
+    justify-content: space-between;
+    height: fit-content;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    border-color: #0000000D;
+    border-width: 0 0 2px 0;
+    padding: 15px 0 15px 0;
+}
+.module_container{
+    padding: 0 20px 0px 20px;
+}
+.img_name{
+    width: 90%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    overflow-x: hidden;
+    
+}
+.img_name:hover{
+    background-color: #d8dde1;
+    cursor: pointer;
+    border-radius: 7px;
+    text-decoration: underline;
+    
+    
+}
+.fileImg{
+    margin-right: 15px;
+    height: 30px;
+
+}
+.moduleName{
+    font-weight: 400;
+font-size: 1.3vw;
+}
+
+.drop_div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 0px;
+    width: 100%;
+    font-size: 0px;
+
+}
+
+.clicked .drop_div{
+    
+    height: fit-content;
+    font-size: 20px; ;
+    
+    transition: all 0.2s ease 0s,visibility 0s linear;
+    
+    border-style: solid;
+    border-color: #0000000D;
+    border-width: 0 0 2px 0;
+    cursor: pointer;
+      
+}
+
+.clicked .drop_div span{
+    transition-duration: 0s;
+    height: fit-content;
+    padding: 20px 10px 20px 10px;
+       
+}
+.clicked .drop_div span:hover{
+    height: fit-content;
+   
+    background-color: #EAEEF2;
+    
+}
+.drop_down{
+    cursor: pointer;
+    width: 25px;
+    margin-left: 5px;
+}
+
+.module_container:last-child .module{
+    border-width:0 ;
+}
+.clicked:last-child .drop_div{
+    border-width: 2px 0 0 0;
+}
+
+@media screen and (max-width:1150px){
+
+    .fileImg{
+        
+        height: 25px;
+    
+    }
+    .clicked .drop_div{
+        font-size: 16px;
+              
+    }
+
+    .drop_down{     
+        width: 20px;
+    }
+
+    .module{
+       
+        padding: 10px 0 10px 0;
+    }
+    .moduleName{
+        
+    font-size: 1.5vw;
+    }
+    .semestres{
+        
+        width: 90%;
+        
+    }
+}
+
+
+@media screen and (max-width:900px){
+
+    .module_container{
+        padding: 0 10px 0 10px;
+    }
+    .moduleName{
+        font-size: 14px;
+    }
+    .semestre_1,.semestre_2{
+        width: 47%;
+    }
+}
+
+@media screen and (max-width:760px){
+
+    .module_container{
+        padding: 0 7px 0 7px;
+    }
+    .moduleName{
+        font-size: 12px;
+    }
+    .semestre_1,.semestre_2{
+        width: 48%;
+    }
+}
+@media screen and (max-width:680px){
+
+    .fileImg{
+        
+        width: 18px;
+        margin-right: 9px;
+    
+    }
+    .drop_down{
+        cursor: pointer;
+        width: 17px;
+        margin-left: 5px;
+    }
+}
