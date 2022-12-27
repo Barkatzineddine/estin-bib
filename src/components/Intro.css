@@ -24,7 +24,9 @@
 .intro h1{
     margin: 0px !important;
 }
-
+.bib_mobile{
+    display: none;
+}
 
 .bib{
     position: absolute;
@@ -51,4 +53,43 @@
         height: 65vh;
     }
   
+}
+
+@media screen and (max-width:645px) {
+    .bib{
+      display: none;
+    }
+
+    .bib_mobile{
+        display: block;
+        position: absolute;
+        bottom: -175px;
+        width: 85%;
+        height: 75%;
+        z-index: 0;
+    
+         
+    }}
+
+    @media screen and (max-width:540px) {
+        
+    
+        .bib_mobile{
+          
+            bottom: -23.5vh;   
+        }
+        .vecteur{
+            display: none;
+        }
+       .intro {
+            height: 50vh;
+            
+        }
+        .intro h1{
+            font-size: 22px;
+        }
+        
+
+     
+    
 }

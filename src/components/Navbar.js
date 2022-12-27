@@ -6,7 +6,12 @@ export default function Navbar() {
 
 var lastScrollTop = 0;
 setTimeout(()=>{
-   const nav=document.querySelector(".Navbar")
+   const nav=document.querySelector(".Navbar");
+   const mobile_nav=document.querySelector(".mobile_nav");
+   const mobile_nav_container=document.querySelector(".mobile_nav_container");
+   const hamburger=document.querySelector(".hamburger");
+   const close=document.querySelector(".close");
+   const mobile_nav_spans=document.querySelectorAll(".main_nav span");
  
   window.addEventListener("scroll",function(){
     var scrollTop=window.pageYOffset || this.document.documentElement.scrollTop;
@@ -26,7 +31,33 @@ setTimeout(()=>{
     console.log(nav.style.backgroundColor)
     lastScrollTop=scrollTop;
 
-   })},1000)
+   })
+
+    hamburger.addEventListener("click",function(){
+        mobile_nav.style.top="0px";
+        mobile_nav_container.style.display="block";
+
+        document.body.style.overflowY="hidden"
+    })
+
+    close.addEventListener("click",function(){
+        mobile_nav.style.top="-90vh";
+        mobile_nav_container.style.display="none";
+
+        document.body.style.overflowY="scroll"
+    })
+for(let i=0;i<6;i++){
+    mobile_nav_spans[i].addEventListener("click",function(){
+        mobile_nav.style.top="-90vh";
+        mobile_nav_container.style.display="none";
+
+        document.body.style.overflowY="scroll"
+
+    })}
+    
+
+
+},1000)
 
 
 
@@ -48,7 +79,28 @@ setTimeout(()=>{
                         <span className='navSpan '><a href='#3CS'>3CS</a></span>
                         <button className='contribuer'><a href=''>Contribuer</a></button>
                     </div> 
-                </nav>
+                    <img className='hamburger' src='/hamburger.svg' alt='hamburger' />
+                    <div className='mobile_nav'>
+                        <div className='head_nav'>
+                           <img className='logo_nav' src='/logo_nav.svg' />
+                           <img className='close' src='/close.svg' />
+                        </div>
+                        <div className='main_nav'>
+                            <span><a href='#accueil'>Accueil</a></span>
+                            <span><a href='#1CP'>1CP</a></span>
+                            <span><a href='#1CP'>2CP</a></span>
+                            <span><a href='#1CP'>1CS</a></span>
+                            <span><a href='#1CP'>2CS</a></span>
+                            <span><a href='#1CP'>3CS</a></span>
+                            <button><a href=''>Contribuer</a></button>
+                        </div>
+                        </div>
+
+                        <div className='mobile_nav_container'></div>
+            
+        </nav>
+
+          
         </>
     )
 

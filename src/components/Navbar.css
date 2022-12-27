@@ -12,7 +12,7 @@
     position:fixed;
     width: 100%;
     
-    z-index: 10;
+    z-index: 1000;
 }
 .logo{
     width: 10vw;
@@ -71,6 +71,116 @@ transition-duration: 0.3s;
 }
 .navSpan:hover::after{
     width: 100%;
+}
+.mobile_nav_container{
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 200vh;
+    
+    z-index: 200;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(8px); 
+    
+
+}
+.close{
+    
+    width: 28px;
+    margin-right: 20px;
+   
+}
+.logo_nav{
+    margin-left: 20px;
+}
+.head_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-style: solid;
+    border-width: 0 0 3px 0;
+    border-color: #3867D6;
+    padding: 15px;
+    margin: 0 10px 0 10px;
+    
+}
+.main_nav{
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 30px 20px;
+    width: 100%;
+    align-items: center;
+}
+.main_nav span{
+    width: 92%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: #dadadabe;
+}
+
+
+.mobile_nav{
+    box-sizing:border-box;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    z-index: 1000;
+    top: -200vh;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: all ease-in 0.5s;
+    font-family: "Poppins";
+    border-radius: 0 0 10px 0;
+   
+    
+}
+.main_nav span a{
+    color: rgb(0, 0, 0);
+}
+button a{
+    color: white;
+}
+.mobile_nav span{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.mobile_nav span:hover{
+    color: #FA8231;
+}
+.hamburger{
+    display: none;
+    margin-right: 20px;
+}
+.mobile_nav button{
+    background-color: #FA8231;
+    color: white ;
+    width: 165px;
+    height: 45px;
+    border-width: 0px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    
+    
+    
+    margin:20px 0 0 0;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    
+    
 }
 @media screen and (max-width:1000px) {
     .navSpan{
@@ -143,4 +253,14 @@ transition-duration: 0.3s;
         
         
     }
+}
+
+@media screen and (max-width:640px) {
+    .hamburger{
+        display: block;
+    }
+    .navbarRight{
+        display: none;
+    }
+    
 }

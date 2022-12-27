@@ -68,3 +68,28 @@ a{
   text-decoration: none;
   color: white;
 }
+
+
+@media screen and (max-width:570px) {
+.corner{
+  display: none;
+}
+  
+}
+
+
+
+@media screen and (max-width:370px) {
+  .CCS{
+   
+    padding-top: 30px;
+    
+  }
+  .blur1{
+    display: none;
+  }
+  .blur2{
+   display: none;
+  }
+  
+}

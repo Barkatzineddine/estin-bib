@@ -2,6 +2,7 @@ import './footer.css'
 
 export default function Footer(){
     return(
+        <>
     <div class="bottom-page">
         <div class="first-part">
             <div class="left-column">
@@ -39,6 +40,30 @@ export default function Footer(){
             <img src="./gdsc-tall.svg" alt="" class="img"/>
         </div>
     </div>
+
+
+    <div className='footer_mobile'>
+        <p>"SHARING IS CARING"</p>
+        <button>Contribuer</button>
+        <h2>Contact Us</h2>
+        <form class="content">
+        <input type="text" placeholder="Name"/>
+        <input type="email" placeholder="Email"/>
+        <textarea name="" id="" placeholder="Message"></textarea>
+        </form>
+        <button>Send<a href=""></a></button>
+        <img className='img-gdsc' src="./img-gdsc.svg" alt=""/>
+        <img class="second-part" src="./estin.svg" alt=""/>
+        <div class="third-part">
+            <img src="./blur.svg" alt="" class="corner"/>
+            <p>Made by</p>
+            <img src="./gdsc-tall.svg" alt="" class="img"/>
+        </div>
+
+
+
+    </div>
+    </>
     )
     
 }

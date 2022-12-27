@@ -14,6 +14,10 @@
     padding-top: 60px;
     background-color: white;
 }
+.semestres_mobile{
+    display: none;
+    overflow-x: hidden;
+}
 
 .Cs:last-child{
 padding-bottom: 150px;
@@ -69,10 +73,32 @@ header{
     font-size: 19px;
     padding: 15px 0 15px 0;
     font-weight: bold;
+    min-height:30px;
 }
 .semestre_1,.semestre_2{
     width: 45%;
 }
+.header_1_cp1,.header_2_cp1{
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    transition: all ease-in 1s;
+}
+.header_2_cp1{
+    position: absolute;
+    right: -500px;
+    
+}
+
+.modules_2{
+    position: absolute;
+    right:-600px;
+    transition: all ease-in 0.5s;
+    z-index: -100;
+
+}
+
+
 .modules{
     position: relative;
     z-index: 0;
@@ -80,6 +106,8 @@ header{
     padding: 3px 10px 10px 10px;
     border-radius: 0px 0px 8px 8px;
     box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all ease 0.5s;
 }
 .module{
     justify-content: space-between;
@@ -129,6 +157,12 @@ font-size: 1.3vw;
     font-size: 0px;
 
 }
+.modules_2{
+    transition: all ease 0.5s;
+}
+.module_1{
+    transition: all ease 0.5s;
+}
 
 .clicked .drop_div{
     
@@ -156,6 +190,16 @@ font-size: 1.3vw;
     background-color: #EAEEF2;
     
 }
+header{
+    display: flex;
+    justify-content: center;
+}
+.semestres_mobile header img{
+    width: 13px;
+    margin:0 15px 0 15px ;
+    cursor: pointer;
+    color: white;
+}
 .drop_down{
     cursor: pointer;
     width: 25px;
@@ -168,6 +212,11 @@ font-size: 1.3vw;
 .clicked:last-child .drop_div{
     border-width: 2px 0 0 0;
 }
+.semestres_mobile .module_2{
+    position: relative;
+    right: -500px;
+}
+
 
 @media screen and (max-width:1150px){
 
@@ -240,3 +289,85 @@ font-size: 1.3vw;
         margin-left: 5px;
     }
 }
+
+@media screen and (max-width:640px) {
+
+      .semestres_mobile{
+        padding-top: 50px;
+        display: block;
+        width: 70%;
+        
+    }
+    .semestres{
+        display: none;
+    }
+  
+
+    
+    .semestres_mobile .moduleName{
+        font-size: 18px !important;
+    }
+}
+
+@media screen and (max-width:550px) {
+
+
+  .semestres_mobile .moduleName{
+      font-size: 15px !important;
+  }
+}
+@media screen and (max-width:465px) {
+
+    .semestres_mobile{
+        width: 90%;
+    }
+    .semestres_mobile .moduleName{
+        font-size: 15px !important;
+    }
+  }
+  @media screen and (max-width:365px) {
+
+    .semestres_mobile{
+        width: 90%;
+    }
+    .semestres_mobile .moduleName{
+        font-size: 13px !important;
+    }
+  }
+  @media screen and (max-width:365px) {
+
+    .semestres_mobile{
+        width: 95%;
+    }
+    .semestres_mobile .moduleName{
+        font-size: 12px !important;
+    }
+ 
+
+    .fileImg{
+        width: 17px;
+    }
+    .semestres_mobile .moduleName{
+        font-size: 12px !important;
+        max-height: 18.5px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+    }
+    .semestres_mobile .modules{
+        padding: 3px 0 5px 3px;
+    }
+    .semestres_mobile .module{
+        padding: 5px 0 5px 0px;
+    }
+    .clicked .drop_div{
+        padding: 0;
+        font-size: 15px; ;
+     
+    }
+    .clicked .drop_div span{
+        padding: 15px 10px 15px 10px;
+        
+     
+    }
+   
+  }

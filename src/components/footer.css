@@ -11,13 +11,25 @@
    
     bottom: 0;
 }
+.footer_mobile{
+    display: none;
+    background-color: #4B7BEC;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0%;
+   
+    bottom: 0;
+}
 
 .left-column{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 40%;
     
 }
 .right-column{
@@ -25,7 +37,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     
 }
 .content{
@@ -88,12 +100,18 @@ input::placeholder , textarea::placeholder{
 }
 .third-part{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background: #3867D6;
     height: 70px;
     width: -webkit-fill-available;
     font-size: 20px;
+}
+.third-part p{
+    margin: 0 5px 0 5px;
+    color: white;
+    font-size: 15px;
+   
 }
 .social-img{
     display: flex;
@@ -139,7 +157,9 @@ input::placeholder , textarea::placeholder{
     min-width: 25px;
 
 }
-
+.img{
+    width: 90%;
+}
 
 @media screen and (max-width:900px) {
     .content{     
@@ -147,5 +167,49 @@ input::placeholder , textarea::placeholder{
     }
     
 }
+@media screen and (max-width:590px) {
+    
+    .footer_mobile{
+         display: flex;
+         flex-direction: column;
+         color: white;
+         font-family: "Poppins";
+    }
+    .bottom-page{
+        display: none;
+    }
+    .footer_mobile button{
+        width: 70% !important;
+        margin: 0.4em;
+       padding-top: 7px;
+       padding-bottom: 7px;
+        border-radius: 8px;
+       color: white;
+       font-family: "Poppins";
+        border-style: none !important;
+        outline: none;
+        cursor: pointer;
+        z-index: 10;
+        background-color:#FA8231;
+        font-weight: 700;
+    }
+    .content{
+        width: 100%;
+    }
+    .footer_mobile input,.footer_mobile textarea{
+      width: 70%;
+   }
+   .img-gdsc{
+    margin-top: 20px;
+   }
+   .third-part p{
+    margin: 0 5px 0 5px;
+    color: white;
+    font-size: 2.5vw;
+   
+}
+}
+
+
 
  
