@@ -12,6 +12,9 @@ import Footer from "./components/Footer";
 
 function App() {
   const [change, setChange] = useState(1);
+  const [hamburger, setHamburger] = useState(false);
+  
+
   const drop = (
     <div className="drop_div">
       <span>Cours</span>
@@ -19,6 +22,16 @@ function App() {
       <span>Exams</span>
     </div>
   );
+
+  const hamb_click = ()=>{
+    if(!hamburger){
+    setHamburger(true)
+  }else{
+      setHamburger(false);
+    }
+  };
+
+ 
 
   const activate = (module) => {
     if (!module.active) {
@@ -29,7 +42,7 @@ function App() {
 
     setChange((prevent) => prevent * -1);
   };
-
+  
   return (
     <div className="App">
       <div className="blur1"></div>
@@ -37,7 +50,7 @@ function App() {
       <img src="/left1.svg" className="left1" loading="lazy"/>
       <img src="/left2.svg" className="left2" loading="lazy"/>
       <img src="/right.svg" className="right" loading="lazy"/>
-      <Navbar />
+      <Navbar hamburger={hamburger} hamb_click={hamb_click} />
       <Intro />
       <div className="CCP">
         <Cp1 activate={activate} drop={drop} />

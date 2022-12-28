@@ -109,7 +109,7 @@ transition-duration: 0.3s;
     display: flex;
     flex-direction: column;
     padding: 0 20px 30px 20px;
-    width: 100%;
+    width: 95%;
     align-items: center;
 }
 .main_nav span{
@@ -118,7 +118,7 @@ transition-duration: 0.3s;
     padding-bottom: 10px;
     border-style: solid;
     border-width: 0 0 1px 0;
-    border-color: #dadadabe;
+    border-color: #dadada48;
 }
 
 
@@ -137,32 +137,55 @@ transition-duration: 0.3s;
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: black;
+    transition: all 0.3s ease-in 0.2s;
+    font-family: "Poppins";
+    border-radius: 0 0 20px 20px; 
+}
+
+.mobile_nav_clicked{
+    box-sizing:border-box;
+    position: absolute;
+    width: 100vw;
+    height: fit-content;
+    z-index: 1000;
+    /*top: -700px;*/
+    top: 0px;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
     transition: all 0.8s ease 0.2s;
     font-family: "Poppins";
-    border-radius: 0 0 20px 20px;
-   
-    
+    border-radius: 0 0 20px 20px; 
+
 }
-.main_nav span a{
+
+.main_nav span a,.main_nav_clicked span a{
     color: rgb(0, 0, 0);
 }
+
 button a{
     color: white;
 }
-.mobile_nav span{
+
+.mobile_nav_clicked span,.mobile_nav span{
     cursor: pointer;
     font-size: 22px;
     font-weight: 500;
 }
 
-.mobile_nav span:hover{
+.mobile_nav span:hover,.mobile_nav_clicked span:hover{
     color: #FA8231;
 }
+
 .hamburger{
     display: none;
     margin-right: 20px;
 }
-.mobile_nav button{
+.mobile_nav button,.mobile_nav_clicked button{
     background-color: #FA8231;
     color: white ;
     width: 165px;
@@ -175,10 +198,7 @@ button a{
     font-weight: 500;
     font-size: 20px;
     border-radius: 30px;
-    cursor: pointer;
-    
-    
-    
+    cursor: pointer; 
     margin:20px 0 0 0;
     padding-top: 7px;
     padding-bottom: 10px;
@@ -206,9 +226,8 @@ button a{
         
     }
     .logo{
-        margin-top: 10px;
-        
-       margin-left: 10px;
+        margin-top: 10px;       
+        margin-left: 10px;
     }
     .navbarRight{
         margin-right: 10px;

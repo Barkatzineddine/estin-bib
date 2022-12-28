@@ -76,20 +76,36 @@
     
         .bib_mobile{
           
-            bottom: -23.5vh;   
+            bottom: -20vh;   
         }
         .vecteur{
             display: none;
         }
        .intro {
-            height: 50vh;
+            height: 40vh;
             
         }
         .intro h1{
             font-size: 22px;
-        }
-        
+        }     
+}
 
-     
-    
+@media screen and (max-height:580px) {
+
+    .bib{
+        bottom: -90px;
+        width: 70vw;
+    }
+    .intro{
+        padding-top: 100px;
+    }
+    .intro h1{
+
+        font-size: 20px;
+
+    }
+    .intro p{
+        font-size: 13px;
+    }
+
 }
