@@ -29,6 +29,7 @@ export default function Cp1({ activate, drop }) {
                             <div className="img_name">
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="fileImg"
                                 src="/file.svg"
                               />
@@ -38,6 +39,7 @@ export default function Cp1({ activate, drop }) {
                             </div>
                             <img
                               alt="img"
+                              loading="lazy"
                               className="drop_down"
                               src="/dropDown.svg"
                               onClick={(e) => {
@@ -49,7 +51,7 @@ export default function Cp1({ activate, drop }) {
                                   e.target.style.transform = "";
                                 }
 
-                                console.log(window.scrollY);
+                                
                               }}
                             />
                           </div>
@@ -76,6 +78,7 @@ export default function Cp1({ activate, drop }) {
                             <div className="img_name">
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="fileImg"
                                 src="/file.svg"
                               />
@@ -84,6 +87,7 @@ export default function Cp1({ activate, drop }) {
                               </span>
                             </div>
                             <img
+                              loading="lazy"
                               alt="img"
                               className="drop_down"
                               src="/dropDown.svg"
@@ -111,9 +115,11 @@ export default function Cp1({ activate, drop }) {
               <div className="semestres_mobile">
                 <header>
                   {!show_1 ? (
-                    <img src="/left_icon_desactive.svg" />
+                    <img className="left_icon_desactive" src="/left_icon_desactive.svg" loading="lazy"/>
                   ) : (
                     <img
+                      className="left_icon_active"
+                      loading="lazy"
                       onClick={() => {
                         setShow_1(false);
                       }}
@@ -123,13 +129,15 @@ export default function Cp1({ activate, drop }) {
                   {!show_1 ? "semestre 01" : "semestre 02"}
                   {!show_1 ? (
                     <img
+                      className="right_icon_active"
                       src="/right_icon_active.svg"
+                      loading="lazy"
                       onClick={() => {
                         setShow_1(true);
                       }}
                     />
                   ) : (
-                    <img src="/right_icon_desactive.svg" />
+                    <img src="/right_icon_desactive.svg" className="right_icon_desactive" />
                   )}
                 </header>
                 <div className="modules">
@@ -148,6 +156,7 @@ export default function Cp1({ activate, drop }) {
                               <div className="img_name">
                                 <img
                                   alt="img"
+                                  loading="lazy"
                                   className="fileImg"
                                   src="/file.svg"
                                 />
@@ -157,6 +166,7 @@ export default function Cp1({ activate, drop }) {
                               </div>
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
@@ -168,7 +178,7 @@ export default function Cp1({ activate, drop }) {
                                     e.target.style.transform = "";
                                   }
 
-                                  console.log(window.scrollY);
+                                  ;
                                 }}
                               />
                             </div>
@@ -190,6 +200,7 @@ export default function Cp1({ activate, drop }) {
                               <div className="img_name">
                                 <img
                                   alt="img"
+                                  loading="lazy"
                                   className="fileImg"
                                   src="/file.svg"
                                 />
@@ -199,6 +210,7 @@ export default function Cp1({ activate, drop }) {
                               </div>
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {

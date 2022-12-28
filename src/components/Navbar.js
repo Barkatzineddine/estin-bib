@@ -16,14 +16,18 @@ export default function Navbar() {
       var scrollTop =
         window.pageYOffset || this.document.documentElement.scrollTop;
       if (scrollTop > lastScrollTop) {
-        nav.style.top = "-80px";
+        /*nav.style.top = "-80px";*/
+        nav.style.transform="translateY(-100%)";
       } else {
-        nav.style.top = "0";
+       /* nav.style.top = "0";*/
+       nav.style.transform="translateY(0)"
+
         nav.style.background =
           "linear-gradient(to right,rgba(122, 152, 220, 0.565) 10% ,rgb(56, 103, 214,1)  )";
       }
       if (scrollTop === 0) {
-        nav.style.top = "0";
+        /*nav.style.top = "0";*/
+        nav.style.transform="translateY(0)"
         nav.style.background = "#ffffff00";
       }
       console.log(nav.style.backgroundColor);
@@ -31,21 +35,27 @@ export default function Navbar() {
     });
 
     hamburger.addEventListener("click", function () {
-      mobile_nav.style.top = "0px";
+      
+      mobile_nav.style.transform = "translateY(0)";
+      mobile_nav.style.transition="all 0.8s ease 0.2s"
       mobile_nav_container.style.display = "block";
 
       document.body.style.overflowY = "hidden";
     });
 
     close.addEventListener("click", function () {
-      mobile_nav.style.top = "-90vh";
+     
+      mobile_nav.style.transform = "translateY(-100%)";
+      mobile_nav.style.transition="all 0.4s ease 0.2s"
       mobile_nav_container.style.display = "none";
 
       document.body.style.overflowY = "scroll";
     });
     for (let i = 0; i < 6; i++) {
       mobile_nav_spans[i].addEventListener("click", function () {
-        mobile_nav.style.top = "-90vh";
+        
+        mobile_nav.style.transform = "translateY(-100%)";
+        mobile_nav.style.transition="all 0.4s ease 0.2s"
         mobile_nav_container.style.display = "none";
 
         document.body.style.overflowY = "scroll";
@@ -56,7 +66,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="Navbar">
-        <img className="logo" src="/logo.svg" />
+        <img className="logo" src="/logo.svg" loading="lazy"/>
         <div className="navbarRight">
           <span className="navSpan ">
             <a href="#accueil">Accueil</a>
@@ -83,8 +93,8 @@ export default function Navbar() {
         <img className="hamburger" src="/hamburger.svg" alt="hamburger" />
         <div className="mobile_nav">
           <div className="head_nav">
-            <img className="logo_nav" src="/logo_nav.svg" />
-            <img className="close" src="/close.svg" />
+            <img className="logo_nav" src="/logo_nav.svg" loading="lazy" />
+            <img className="close" src="/close.svg" loading="lazy"/>
           </div>
           <div className="main_nav">
             <span>

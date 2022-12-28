@@ -203,6 +203,7 @@ header{
 .drop_down{
     cursor: pointer;
     width: 25px;
+    height: 12px;
     margin-left: 5px;
 }
 
@@ -215,6 +216,11 @@ header{
 .semestres_mobile .module_2{
     position: relative;
     right: -500px;
+}
+.left_icon_active,.left_icon_desactive,.right_icon_active,.right_icon_desactive{
+    width: 20px;
+    height: 30px;
+    margin: 0 15px 0 15px;
 }
 
 
@@ -232,6 +238,7 @@ header{
 
     .drop_down{     
         width: 20px;
+        height: 10px;
     }
 
     .module{
@@ -286,6 +293,7 @@ header{
     .drop_down{
         cursor: pointer;
         width: 17px;
+        height: 9px;
         margin-left: 5px;
     }
 }

@@ -29,6 +29,7 @@ export default function Cs3({ activate, drop }) {
                             <div className="img_name">
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="fileImg"
                                 src="/file.svg"
                               />
@@ -38,6 +39,7 @@ export default function Cs3({ activate, drop }) {
                             </div>
                             <img
                               className="drop_down"
+                              loading="lazy"
                               src="/dropDown.svg"
                               onClick={(e) => {
                                 activate(module);
@@ -48,7 +50,7 @@ export default function Cs3({ activate, drop }) {
                                   e.target.style.transform = "";
                                 }
 
-                                console.log(e.target.style);
+                                
                               }}
                             />
                           </div>
@@ -73,6 +75,7 @@ export default function Cs3({ activate, drop }) {
                           <div className="module">
                             <div className="img_name">
                               <img
+                                loading="lazy"
                                 className="fileImg"
                                 src="/file.svg"
                                 alt="img"
@@ -83,6 +86,7 @@ export default function Cs3({ activate, drop }) {
                             </div>
                             <img
                               alt="img"
+                              loading="lazy"
                               className="drop_down"
                               src="/dropDown.svg"
                               onClick={(e) => {
@@ -94,7 +98,7 @@ export default function Cs3({ activate, drop }) {
                                   e.target.style.transform = "";
                                 }
 
-                                console.log(e.target.style);
+                                
                               }}
                             />
                           </div>
@@ -111,25 +115,28 @@ export default function Cs3({ activate, drop }) {
               <div className="semestres_mobile">
                 <header>
                   {!show_5 ? (
-                    <img src="/left_icon_desactive.svg" />
+                    <img src="/left_icon_desactive.svg" className="left_icon_desactive"/>
                   ) : (
                     <img
+                      loading="lazy"
                       onClick={() => {
                         setShow_5(false);
                       }}
                       src="/left_icon_active.svg"
+                      className="left_icon_active"
                     />
                   )}
                   {!show_5 ? "semestre 01" : "semestre 02"}
                   {!show_5 ? (
                     <img
                       src="/right_icon_active.svg"
+                      className="right_icon_active"
                       onClick={() => {
                         setShow_5(true);
                       }}
                     />
                   ) : (
-                    <img src="/right_icon_desactive.svg" />
+                    <img src="/right_icon_desactive.svg" className="right_icon_desactive"/>
                   )}
                 </header>
                 <div className="modules">
@@ -148,6 +155,7 @@ export default function Cs3({ activate, drop }) {
                               <div className="img_name">
                                 <img
                                   alt="img"
+                                  loading="lazy"
                                   className="fileImg"
                                   src="/file.svg"
                                 />
@@ -157,6 +165,7 @@ export default function Cs3({ activate, drop }) {
                               </div>
                               <img
                                 alt="img"
+                                loading="lazy"
                                 className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
@@ -168,7 +177,7 @@ export default function Cs3({ activate, drop }) {
                                     e.target.style.transform = "";
                                   }
 
-                                  console.log(window.scrollY);
+                                  
                                 }}
                               />
                             </div>
@@ -189,6 +198,7 @@ export default function Cs3({ activate, drop }) {
                             <div className="module">
                               <div className="img_name">
                                 <img
+                                  loading="lazy"
                                   alt="img"
                                   className="fileImg"
                                   src="/file.svg"
@@ -198,6 +208,7 @@ export default function Cs3({ activate, drop }) {
                                 </span>
                               </div>
                               <img
+                              loading="lazy"
                                 alt="img"
                                 className="drop_down"
                                 src="/dropDown.svg"

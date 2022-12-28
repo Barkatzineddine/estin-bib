@@ -156,7 +156,7 @@ textarea::placeholder {
 }
 .img {
   width: 90%;
-  max-height: 95%;
+  max-height: 60%;
 }
 
 @media screen and (max-width: 900px) {

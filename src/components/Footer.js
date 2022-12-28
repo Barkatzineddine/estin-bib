@@ -14,11 +14,11 @@ export default function Footer() {
                 </button>
               </div>
               <div class="content">
-                <img className="img-gdsc" src="./img-gdsc.svg" alt="" />
+                <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
                 <div class="social-img">
-                  <img class="linkdin" src="./linkdin.svg" alt="" />
-                  <img class="insta" src="./insta.svg" alt="" />
-                  <img class="fb" src="./fb.svg" alt="" />
+                  <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/>
+                  <img class="insta" src="./insta.svg" alt="img" loading="lazy"/>
+                  <img class="fb" src="./fb.svg" alt="img" loading="lazy"/>
                 </div>
               </div>
             </div>
@@ -36,11 +36,11 @@ export default function Footer() {
           </div>
         </div>
 
-        <img class="second-part" src="./estin.svg" alt="" />
+        <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
         <div class="third-part">
-          <img src="./blur.svg" alt="" class="corner" />
+          <img src="./blur.svg" alt="" class="corner" loading="lazy"/>
           <p>Made by</p>
-          <img src="./gdsc-tall.svg" alt="" class="img" />
+          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy"/>
         </div>
       </div>
 
@@ -56,12 +56,12 @@ export default function Footer() {
         <button>
           Send<a href=""></a>
         </button>
-        <img className="img-gdsc" src="./img-gdsc.svg" alt="" />
-        <img class="second-part" src="./estin.svg" alt="" />
+        <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
+        <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
         <div class="third-part">
-          <img src="./blur.svg" alt="" class="corner" />
+          
           <p>Made by</p>
-          <img src="./gdsc-tall.svg" alt="" class="img" />
+          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy"/>
         </div>
       </div>
     </>

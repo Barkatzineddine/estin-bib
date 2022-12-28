@@ -34,9 +34,9 @@ function App() {
     <div className="App">
       <div className="blur1"></div>
       <div className="blur2"></div>
-      <img src="/left1.svg" className="left1" />
-      <img src="/left2.svg" className="left2" />
-      <img src="/right.svg" className="right" />
+      <img src="/left1.svg" className="left1" loading="lazy"/>
+      <img src="/left2.svg" className="left2" loading="lazy"/>
+      <img src="/right.svg" className="right" loading="lazy"/>
       <Navbar />
       <Intro />
       <div className="CCP">
