@@ -1,19 +1,16 @@
-import React from "react";
-import { useState } from "react";
+
+
 import "./App.css";
+import { useState } from "react";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
-import Cp1 from "./components/Cp1";
-import Cp2 from "./components/Cp2";
-import Cs1 from "./components/Cs1";
-import Cs2 from "./components/Cs2";
-import Cs3 from "./components/Cs3";
 import Footer from "./components/Footer";
+import main_data from './components/data.json';
+import Year from "./components/year";
 
 function App() {
-  const [change, setChange] = useState(1);
-  const [hamburger, setHamburger] = useState(false);
-  
+
+  const[change,setChange]= useState(1)
 
   const drop = (
     <div className="drop_div">
@@ -22,26 +19,21 @@ function App() {
       <span>Exams</span>
     </div>
   );
-
-  const hamb_click = ()=>{
-    if(!hamburger){
-    setHamburger(true)
-  }else{
-      setHamburger(false);
-    }
-  };
-
- 
-
-  const activate = (module) => {
-    if (!module.active) {
-      module.active = true;
-    } else {
-      module.active = false;
+  
+  const activate=(module)=>{
+    if(!module.active){
+      module.active=true
+    }else{
+      module.active=false
     }
 
     setChange((prevent) => prevent * -1);
-  };
+
+  }
+
+ 
+
+
   
   return (
     <div className="App">
@@ -50,17 +42,23 @@ function App() {
       <img src="/left1.svg" className="left1" loading="lazy"/>
       <img src="/left2.svg" className="left2" loading="lazy"/>
       <img src="/right.svg" className="right" loading="lazy"/>
-      <Navbar hamburger={hamburger} hamb_click={hamb_click} />
+      <Navbar />
       <Intro />
       <div className="CCP">
-        <Cp1 activate={activate} drop={drop} />
-        <Cp2 activate={activate} drop={drop} />
+     
+   
+        <Year activate={activate} drop={drop} data={main_data[0]} />
+        <Year activate={activate} drop={drop} data={main_data[1]} />
       </div>
       <div className="CCS">
-        <Cs1 activate={activate} drop={drop} />
-        <Cs2 activate={activate} drop={drop} />
-        <Cs3 activate={activate} drop={drop} />
+
+        <Year activate={activate} drop={drop} data={main_data[2]} />
+        <Year activate={activate} drop={drop} data={main_data[3]} />
+        <Year activate={activate} drop={drop} data={main_data[4]} />
+
       </div>
+        
+     
       <Footer />
     </div>
   );

@@ -1,5 +1,6 @@
 import "./Intro.css";
-export default function Intro() {
+
+const Intro = ()=> {
   return (
     <div id="accueil" className="intro">
       <h1>Lorem ipsum yaaaaw</h1>
@@ -14,3 +15,4 @@ export default function Intro() {
     </div>
   );
 }
+export default Intro;

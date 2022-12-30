@@ -1,6 +1,7 @@
 import "./footer.css";
 
-export default function Footer() {
+
+const Footer = ()=> {
   return (
     <>
       <div class="bottom-page">
@@ -67,3 +68,4 @@ export default function Footer() {
     </>
   );
 }
+export default Footer;

@@ -1,6 +1,9 @@
 import "./Navbar.css";
 
-export default function Navbar({hamburger,hamb_click}) {
+import { useState } from "react";
+
+const Navbar = ()=> {
+  const [hamburger, setHamburger] = useState(false);
   var lastScrollTop = 0;
   setTimeout(() => {
     const nav = document.querySelector(".Navbar");
@@ -56,33 +59,33 @@ export default function Navbar({hamburger,hamb_click}) {
             <a href="">Contribuer</a>
           </button>
         </div>
-        <img className="hamburger" src="/hamburger.svg" alt="hamburger" onClick={()=>{hamb_click()}}/>
+        <img className="hamburger" src="/hamburger.svg" alt="hamburger" onClick={()=>{setHamburger(true)}}/>
         <div className={hamburger?"mobile_nav_clicked":"mobile_nav"}>
           <div className="head_nav">
             <img className="logo_nav" src="/logo_nav.svg" loading="lazy" />
-            <img className="close" src="/close.svg" loading="lazy" onClick={()=>{hamb_click()}}/>
+            <img className="close" src="/close.svg" loading="lazy" onClick={()=>{setHamburger(false)}}/>
           </div>
           <div className="main_nav">
             <span>
-              <a href="#accueil">Accueil</a>
+              <a href="#accueil" onClick={()=>{setHamburger(false)}}>Accueil</a>
             </span>
             <span>
-              <a href="#1CP">1CP</a>
+              <a href="#1CP" onClick={()=>{setHamburger(false)}}>1CP</a>
             </span>
             <span>
-              <a href="#2CP">2CP</a>
+              <a href="#2CP" onClick={()=>{setHamburger(false)}}>2CP</a>
             </span>
             <span>
-              <a href="#1CS">1CS</a>
+              <a href="#1CS" onClick={()=>{setHamburger(false)}}>1CS</a>
             </span>
             <span>
-              <a href="#2CS">2CS</a>
+              <a href="#2CS" onClick={()=>{setHamburger(false)}}>2CS</a>
             </span>
             <span>
-              <a href="#3CS">3CS</a>
+              <a href="#3CS" onClick={()=>{setHamburger(false)}}>3CS</a>
             </span>
             <button>
-              <a href="#">Contribuer</a>
+              <a href="#" onClick={()=>{setHamburger(false)}}>Contribuer</a>
             </button>
           </div>
         </div>
@@ -92,3 +95,4 @@ export default function Navbar({hamburger,hamb_click}) {
     </>
   );
 }
+export default Navbar;

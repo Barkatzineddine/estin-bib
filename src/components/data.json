@@ -7,18 +7,16 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analaaaaayse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},            
             {"module_name":"ANA1_analyse mathematique","active":false}
         ],
         "modules_S2":[
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analaaaaaaaaaaaaaaayse mathematique","active":false},
+            {"module_name":"Algo_1","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},           
             {"module_name":"ANA1_analyse mathematique","active":false}
         ]
 
@@ -26,9 +24,9 @@
     {
         "year":"2CP",
         "modules_S1":[
-            {"module_name":"2cpANA1_analyse mathematique","active":false},
-            {"module_name":"2cpANA1_analyse mathematique","active":false},
-            {"module_name":"2cpANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
+            {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
@@ -55,7 +53,6 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-          
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false}
         ],
@@ -66,7 +63,6 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-           
             {"module_name":"ANA1_analyse mathematique","active":false}
         ]
 
@@ -79,8 +75,7 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},           
             {"module_name":"ANA1_analyse mathematique","active":false}
         ],
         "modules_S2":[
@@ -89,8 +84,7 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},           
             {"module_name":"ANA1_analyse mathematique","active":false}
         ]
 
@@ -103,8 +97,7 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},          
             {"module_name":"ANA1_analyse mathematique","active":false}
         ],
         "modules_S2":[
@@ -113,8 +106,7 @@
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
             {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            
+            {"module_name":"ANA1_analyse mathematique","active":false},           
             {"module_name":"ANA1_analyse mathematique","active":false}
         ]
 
