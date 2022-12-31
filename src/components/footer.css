@@ -97,7 +97,8 @@ textarea::placeholder {
 }
 .third-part {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   background: #3867d6;
   height: 70px;
@@ -188,6 +189,7 @@ textarea::placeholder {
     z-index: 10;
     background-color: #fa8231;
     font-weight: 700;
+    font-size: 16px;
   }
   .content {
     width: 100%;

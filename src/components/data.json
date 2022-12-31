@@ -2,112 +2,1231 @@
     {
         "year":"1CP",
         "modules_S1":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analaaaaayse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},            
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ],
+
         "modules_S2":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"Algo_1","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},           
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ]
 
-    },
+        },
     {
         "year":"2CP",
         "modules_S1":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-          
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ],
         "modules_S2":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-        
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ]
 
     },
     {
         "year":"1CS",
         "modules_S1":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ],
         "modules_S2":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ]
 
-    },
-    {
+         },
+         {
         "year":"2CS",
         "modules_S1":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},           
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ],
         "modules_S2":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},           
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ]
 
     },
     {
         "year":"3CS",
         "modules_S1":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},          
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ],
         "modules_S2":[
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},
-            {"module_name":"ANA1_analyse mathematique","active":false},           
-            {"module_name":"ANA1_analyse mathematique","active":false}
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+            
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }, 
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            },
+
+            {
+                "module_name":"ANA1_analyse mathematique",
+                "active":false,
+                "tabs":
+                [
+                {
+                    "name":"TD",
+                    "link":""
+                },
+                {
+                    "name":"cours",
+                    "link":""
+                },
+                {
+                    "name":"axams",
+                    "link":""
+                }
+                ]
+            }
         ]
 
     }

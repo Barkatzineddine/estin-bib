@@ -1,9 +1,23 @@
 
 import { useState } from "react";
 import './Cp.css'
-export default function Year ({activate,drop,data}){
+export default function Year ({data}){
 
     const [show, setShow] = useState(false);
+
+    const[change,setChange]= useState(1)
+
+  
+  const activate=(module)=>{
+    if(!module.active){
+      module.active=true
+    }else{
+      module.active=false
+    }
+
+    setChange((prevent) => prevent * -1);
+
+  }
 
     return (
       <>
@@ -41,12 +55,11 @@ export default function Year ({activate,drop,data}){
                               <img
                                 alt="img"
                                 loading="lazy"
-                                className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
                                   activate(module);
   
-                                  if (e.target.style.transform == "") {
+                                  if (e.target.style.transform === "") {
                                     e.target.style.transform = "rotate(180deg)";
                                   } else {
                                     e.target.style.transform = "";
@@ -56,7 +69,16 @@ export default function Year ({activate,drop,data}){
                                 }}
                               />
                             </div>
-                            {drop}
+                            <div className="drop_div">
+                              {module.tabs.map((tab)=>{
+                                return(
+
+                                  <span><a href={tab.link}>{tab.name}</a></span>
+
+                                )
+                              })}
+                                  
+                            </div>
                           </div>
                         );
                       })}
@@ -90,12 +112,11 @@ export default function Year ({activate,drop,data}){
                               <img
                                 loading="lazy"
                                 alt="img"
-                                className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
                                   activate(module);
   
-                                  if (e.target.style.transform == "") {
+                                  if (e.target.style.transform === "") {
                                     e.target.style.transform = "rotate(180deg)";
                                   } else {
                                     e.target.style.transform = "";
@@ -103,23 +124,32 @@ export default function Year ({activate,drop,data}){
                                 }}
                               />
                             </div>
-                            {drop}
+                            <div className="drop_div">
+                              {module.tabs.map((tab)=>{
+                                return(
+
+                                  <span><a href={tab.link}>{tab.name}</a></span>
+
+                                )
+                              })}
+                                  
+                            </div>
                           </div>
                         );
                       })}
                     </div>
                   </div>
                 </div>
+{/****************************************************MOBIIIIIIIIIIIILE******************************************************************************* */}
   
-                {/****************************************************MOBIIIIIIIIIIIILE******************************************************************************* */}
-  
-                <div className="semestres_mobile">
+               { <div className="semestres_mobile">
                   <header>
                     {!show ? (
-                      <img className="left_icon_desactive" src="/left_icon_desactive.svg" loading="lazy"/>
+                      <img className="left_icon_desactive" src="/left_icon_desactive.svg" loading="lazy" alt="img"/>
                     ) : (
                       <img
                         className="left_icon_active"
+                        alt="img"
                         loading="lazy"
                         onClick={() => {
                           setShow(false);
@@ -131,6 +161,7 @@ export default function Year ({activate,drop,data}){
                     {!show? (
                       <img
                         className="right_icon_active"
+                        alt="icon"
                         src="/right_icon_active.svg"
                         loading="lazy"
                         onClick={() => {
@@ -138,7 +169,7 @@ export default function Year ({activate,drop,data}){
                         }}
                       />
                     ) : (
-                      <img src="/right_icon_desactive.svg" className="right_icon_desactive" />
+                      <img src="/right_icon_desactive.svg" className="right_icon_desactive" alt="icon"/>
                     )}
                   </header>
                   <div className="modules">
@@ -168,12 +199,11 @@ export default function Year ({activate,drop,data}){
                                 <img
                                   alt="img"
                                   loading="lazy"
-                                  className="drop_down"
                                   src="/dropDown.svg"
                                   onClick={(e) => {
                                     activate(module);
   
-                                    if (e.target.style.transform == "") {
+                                    if (e.target.style.transform === "") {
                                       e.target.style.transform = "rotate(180deg)";
                                     } else {
                                       e.target.style.transform = "";
@@ -183,7 +213,16 @@ export default function Year ({activate,drop,data}){
                                   }}
                                 />
                               </div>
-                              {drop}
+                              <div className="drop_div">
+                              {module.tabs.map((tab)=>{
+                                return(
+
+                                  <span><a href={tab.link}>{tab.name}</a></span>
+
+                                )
+                              })}
+                                  
+                            </div>
                             </div>
                           );
                         })
@@ -212,12 +251,11 @@ export default function Year ({activate,drop,data}){
                                 <img
                                   alt="img"
                                   loading="lazy"
-                                  className="drop_down"
                                   src="/dropDown.svg"
                                   onClick={(e) => {
                                     activate(module);
   
-                                    if (e.target.style.transform == "") {
+                                    if (e.target.style.transform === "") {
                                       e.target.style.transform = "rotate(180deg)";
                                     } else {
                                       e.target.style.transform = "";
@@ -225,12 +263,24 @@ export default function Year ({activate,drop,data}){
                                   }}
                                 />
                               </div>
-                              {drop}
+                              <div className="drop_div">
+                              {module.tabs.map((tab)=>{
+                                return(
+
+                                  <span><a href={tab.link}>{tab.name}</a></span>
+
+                                )
+                              })}
+                                  
+                            </div>
                             </div>
                           );
                         })}
                   </div>
-                </div>
+                </div>}
+
+          
+
               </div>
             
           

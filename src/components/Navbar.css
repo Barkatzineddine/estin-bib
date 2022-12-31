@@ -8,18 +8,17 @@
     background:linear-gradient(to right,rgba(122, 152, 220, 0.565) 10% ,rgb(56, 103, 214,1)  );
     height: 75px;
    
-    transition-duration: 0.5s;
+    transition: all 0.5s ease ;
     position:fixed;
     width: 100%;
     
     z-index: 1000;
 }
 .logo{
-    width: 140px;
-   
-    height: 32px;
+    width: 140px;  
     z-index: 1;
     margin-left: 20px;
+    display: block;
 }
 .navSpan{
     margin-top: 10px;
@@ -93,6 +92,8 @@ transition-duration: 0.3s;
 }
 .logo_nav{
     margin-left: 20px;
+    z-index: 100;
+    
 }
 .head_nav{
     display: flex;
@@ -137,7 +138,7 @@ transition-duration: 0.3s;
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: black;
-    transition: all 0.3s ease-in 0.2s;
+    transition: all 0.3s ease-in 0s;
     font-family: "Poppins";
     border-radius: 0 0 20px 20px; 
 }
@@ -157,7 +158,7 @@ transition-duration: 0.3s;
     align-items: center;
     background-color: rgb(255, 255, 255);
     color: black;
-    transition: all 0.8s ease 0.2s;
+    transition: all 0.8s ease 0s;
     font-family: "Poppins";
     border-radius: 0 0 20px 20px; 
 
@@ -226,6 +227,7 @@ button a{
         
     }
     .logo{
+        width: 125px;
         margin-top: 10px;       
         margin-left: 10px;
     }

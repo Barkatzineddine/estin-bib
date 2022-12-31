@@ -18,13 +18,15 @@ const Navbar = ()=> {
        
        nav.style.transform="translateY(0)"
 
-        nav.style.background =
+       nav.style.background =
           "linear-gradient(to right,rgba(122, 152, 220, 0.565) 10% ,rgb(56, 103, 214,1)  )";
+          
       }
-      if (scrollTop === 0) {
+      if (scrollTop <= 20) {
        
         nav.style.transform="translateY(0)"
         nav.style.background = "#ffffff00";
+        
       }
       
       lastScrollTop = scrollTop;
@@ -35,7 +37,7 @@ const Navbar = ()=> {
   return (
     <>
       <nav className="Navbar">
-        <img className="logo" src="/logo.svg" loading="lazy"/>
+        <img className="logo" src="/logo.png" loading="lazy"/>
         <div className="navbarRight">
           <span className="navSpan ">
             <a href="#accueil">Accueil</a>
@@ -62,7 +64,7 @@ const Navbar = ()=> {
         <img className="hamburger" src="/hamburger.svg" alt="hamburger" onClick={()=>{setHamburger(true)}}/>
         <div className={hamburger?"mobile_nav_clicked":"mobile_nav"}>
           <div className="head_nav">
-            <img className="logo_nav" src="/logo_nav.svg" loading="lazy" />
+            <img className="logo_nav" src="/logo_nav.png" loading="lazy" />
             <img className="close" src="/close.svg" loading="lazy" onClick={()=>{setHamburger(false)}}/>
           </div>
           <div className="main_nav">

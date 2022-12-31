@@ -10,26 +10,7 @@ import Year from "./components/year";
 
 function App() {
 
-  const[change,setChange]= useState(1)
-
-  const drop = (
-    <div className="drop_div">
-      <span>Cours</span>
-      <span>TD</span>
-      <span>Exams</span>
-    </div>
-  );
   
-  const activate=(module)=>{
-    if(!module.active){
-      module.active=true
-    }else{
-      module.active=false
-    }
-
-    setChange((prevent) => prevent * -1);
-
-  }
 
  
 
@@ -47,14 +28,14 @@ function App() {
       <div className="CCP">
      
    
-        <Year activate={activate} drop={drop} data={main_data[0]} />
-        <Year activate={activate} drop={drop} data={main_data[1]} />
+        <Year   data={main_data[0]} />
+        <Year   data={main_data[1]} />
       </div>
       <div className="CCS">
 
-        <Year activate={activate} drop={drop} data={main_data[2]} />
-        <Year activate={activate} drop={drop} data={main_data[3]} />
-        <Year activate={activate} drop={drop} data={main_data[4]} />
+        <Year  data={main_data[2]} />
+        <Year   data={main_data[3]} />
+        <Year   data={main_data[4]} />
 
       </div>
         

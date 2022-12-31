@@ -17,9 +17,10 @@ const Footer = ()=> {
               <div class="content">
                 <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
                 <div class="social-img">
-                  <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/>
-                  <img class="insta" src="./insta.svg" alt="img" loading="lazy"/>
-                  <img class="fb" src="./fb.svg" alt="img" loading="lazy"/>
+
+                 <a href="https://www.linkedin.com/company/gdsc-estin/"> <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/> </a> 
+                  <a href="https://www.instagram.com/gdsc_estin/"> <img class="insta" src="./insta.svg" alt="img" loading="lazy"/> </a>
+                <a href="https://facebook.com/gdscestin"> <img class="fb" src="./fb.svg" alt="img" loading="lazy"/> </a>  
                 </div>
               </div>
             </div>
@@ -39,7 +40,7 @@ const Footer = ()=> {
 
         <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
         <div class="third-part">
-          <img src="./blur.svg" alt="" class="corner" loading="lazy"/>
+          
           <p>Made by</p>
           <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy"/>
         </div>
@@ -58,6 +59,12 @@ const Footer = ()=> {
           Send<a href=""></a>
         </button>
         <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
+        <div class="social-img">
+
+              <a href="https://www.linkedin.com/company/gdsc-estin/"> <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/> </a> 
+              <a href="https://www.instagram.com/gdsc_estin/"> <img class="insta" src="./insta.svg" alt="img" loading="lazy"/> </a>
+              <a href="https://facebook.com/gdscestin"> <img class="fb" src="./fb.svg" alt="img" loading="lazy"/> </a>  
+        </div>
         <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
         <div class="third-part">
           
