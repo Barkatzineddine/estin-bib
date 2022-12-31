@@ -55,6 +55,7 @@ export default function Year ({data}){
                               <img
                                 alt="img"
                                 loading="lazy"
+                                className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
                                   activate(module);
@@ -69,7 +70,7 @@ export default function Year ({data}){
                                 }}
                               />
                             </div>
-                            <div className="drop_div">
+                            <div>
                               {module.tabs.map((tab)=>{
                                 return(
 
@@ -112,6 +113,7 @@ export default function Year ({data}){
                               <img
                                 loading="lazy"
                                 alt="img"
+                                className="drop_down"
                                 src="/dropDown.svg"
                                 onClick={(e) => {
                                   activate(module);
@@ -124,7 +126,7 @@ export default function Year ({data}){
                                 }}
                               />
                             </div>
-                            <div className="drop_div">
+                            <div>
                               {module.tabs.map((tab)=>{
                                 return(
 
@@ -199,6 +201,7 @@ export default function Year ({data}){
                                 <img
                                   alt="img"
                                   loading="lazy"
+                                  className="drop_down"
                                   src="/dropDown.svg"
                                   onClick={(e) => {
                                     activate(module);
@@ -213,7 +216,7 @@ export default function Year ({data}){
                                   }}
                                 />
                               </div>
-                              <div className="drop_div">
+                              <div>
                               {module.tabs.map((tab)=>{
                                 return(
 
@@ -251,6 +254,7 @@ export default function Year ({data}){
                                 <img
                                   alt="img"
                                   loading="lazy"
+                                  className="drop_down"
                                   src="/dropDown.svg"
                                   onClick={(e) => {
                                     activate(module);
@@ -263,7 +267,7 @@ export default function Year ({data}){
                                   }}
                                 />
                               </div>
-                              <div className="drop_div">
+                              <div>
                               {module.tabs.map((tab)=>{
                                 return(
 
