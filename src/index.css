@@ -1,18 +1,15 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap'); 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-html{
-
-        scroll-behavior: smooth;
-      
+html {
+  scroll-behavior: smooth;
 }
 
- body {
- background-color: rgb(255, 255, 255);
- max-width: 100%;
- padding: 0px;
- margin: 0px;
- overflow-x: hidden;
- height: fit-content;
- font-family: "Poppins";
+body {
+  background-color: rgb(255, 255, 255);
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+  overflow-x: hidden;
+  height: fit-content;
+  font-family: "Poppins";
 }
-

@@ -5,9 +5,8 @@
   padding: 0px;
   overflow-x: hidden;
   position: relative;
-  
 }
-.blur1{
+.blur1 {
   position: absolute;
   width: 554px;
   height: 554px;
@@ -16,108 +15,96 @@
   background: rgba(255, 255, 255, 0.3);
   filter: blur(100px);
 }
-.blur2{
+.blur2 {
   position: absolute;
-left: 79.17%;
-right: -17.64%;
-top: 350px;
-height: 300px;
-z-index: 1;
-background: rgba(255, 255, 255, 0.3);
-filter: blur(100px);
+  left: 79.17%;
+  right: -17.64%;
+  top: 350px;
+  height: 300px;
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.3);
+  filter: blur(100px);
 }
-.CCP{
-  background-color: #EAEEF2;
+.CCP {
+  background-color: #eaeef2;
   padding-bottom: 10px;
   padding-top: 60px;
 }
-.CCS{
-  background-image:url("../public/CCS.svg") ;
-  
+.CCS {
+  background-image: url("../public/CCS.svg");
+
   background-size: 100%;
   background-repeat: no-repeat;
-  background-color: #EAEEF2;
+  background-color: #eaeef2;
   padding-top: 120px;
-  
-  
 }
 
 .CCS .title_cp {
   width: 50px;
-   
+
   color: white;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
-  
-  background-color:#fa8231 ;
+
+  background-color: #fa8231;
   box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
-  border-radius: 8px;    
+  border-radius: 8px;
   padding: 5px 30px 5px 30px;
-  color: #FFFFFF;
-  
+  color: #ffffff;
 }
 
-.CCS .Cp{
+.CCS .Cp {
   background-color: white;
   padding-top: 60px;
   margin-top: 0;
 }
 
-.CCS .Cp:last-child{
+.CCS .Cp:last-child {
   padding-bottom: 100px;
 }
-.left1{
+.left1 {
   position: absolute;
   width: 170.91px;
   height: 114.56px;
   left: 28px;
   top: 122.56px;
 }
-.left2{
+.left2 {
   position: absolute;
   /* left: -12.29%; */
   right: 94.31%;
   top: 200px;
   bottom: 90.62%;
-    
 }
-.right{
- 
-position: absolute;
-    width: 118.53px;
-    height: 142.8px;
-    /* left: 1281px; */
-    right: 20px;
-    top: 158.93px;
+.right {
+  position: absolute;
+  width: 118.53px;
+  height: 142.8px;
+  /* left: 1281px; */
+  right: 20px;
+  top: 158.93px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
 
-
-@media screen and (max-width:570px) {
-.corner{
-  display: none;
-}
-  
-}
-
-
-
-@media screen and (max-width:370px) {
-  .CCS{
-   
-    padding-top: 30px;
-    
-  }
-  .blur1{
+@media screen and (max-width: 570px) {
+  .corner {
     display: none;
   }
-  .blur2{
-   display: none;
+}
+
+@media screen and (max-width: 370px) {
+  .CCS {
+    padding-top: 30px;
   }
-  
+  .blur1 {
+    display: none;
+  }
+  .blur2 {
+    display: none;
+  }
 }
