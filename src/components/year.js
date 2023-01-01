@@ -51,7 +51,9 @@ export default function Year ({data}){
                             </a>
                             
                           </div>
-                        )};
+                        )}else{
+                          return null
+                        };
                       })}
                     </div>
                   </div>
@@ -82,7 +84,9 @@ export default function Year ({data}){
                             </div>
                             </a>
                           </div>
-                        )};
+                        )}else{
+                          return null
+                        };
                       })}
                     </div>
                   </div>
@@ -148,7 +152,9 @@ export default function Year ({data}){
                               </a>
                             
                             </div>
-                          )};
+                          )}else{
+                            return null
+                          };
                         })
                       : data.modules_S2.map((module, index) => {
                         if(module.module_name!==""){
@@ -176,7 +182,9 @@ export default function Year ({data}){
                               </a>
                            
                             </div>
-                          )};
+                          )}else{
+                            return null
+                          };
                         })}
                   </div>
                 </div>}
