@@ -85,7 +85,7 @@ header{
     border-style: solid;
     border-color: #0000000D;
     border-width: 0 0 2px 0;
-    padding: 15px 0 15px 0;
+    padding: 10px 0 10px 0;
     transition: all 0.2s ease ;
 }
 .module_container{

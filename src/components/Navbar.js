@@ -64,7 +64,7 @@ const Navbar = ()=> {
         <img className="hamburger" src="/hamburger.svg" alt="hamburger" onClick={()=>{setHamburger(true)}}/>
         <div className={hamburger?"mobile_nav_clicked":"mobile_nav"}>
           <div className="head_nav">
-            <img className="logo_nav" src="/logo_nav.png" loading="lazy" />
+            <img className="logo_nav" src="/logo_nav.svg" loading="lazy" />
             <img className="close" src="/close.svg" loading="lazy" onClick={()=>{setHamburger(false)}}/>
           </div>
           <div className="main_nav">

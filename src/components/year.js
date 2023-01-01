@@ -26,14 +26,12 @@ export default function Year ({data}){
                     <header>Semestre 01</header>
                     <div className="modules">
                       {data.modules_S1.map((module, index) => {
+                      if(module.module_name!==""){
                         return (
                           <div
                             key={index}
-                            className={
-                              module.active
-                                ? "module_container clicked"
-                                : "module_container"
-                            }
+                            className=
+                              "module_container"
                           >
                             <a href={module.link}>
                             <div className="module">
@@ -53,7 +51,7 @@ export default function Year ({data}){
                             </a>
                             
                           </div>
-                        );
+                        )};
                       })}
                     </div>
                   </div>
@@ -61,15 +59,12 @@ export default function Year ({data}){
                     <header>Semestre 02</header>
                     <div className="modules">
                       {data.modules_S2.map((module, index) => {
+                        if(module.module_name!==""){
                         return (
                           <div
                             key={index}
-                            className={
-                              module.active
-                                ? "module_container clicked"
-                                : "module_container"
-                            }
-                          >
+                            className="module_container"
+                            >
                             <a href={module.link}>
                             <div className="module">
                               <div className="img_name">
@@ -87,7 +82,7 @@ export default function Year ({data}){
                             </div>
                             </a>
                           </div>
-                        );
+                        )};
                       })}
                     </div>
                   </div>
@@ -127,14 +122,13 @@ export default function Year ({data}){
                   <div className="modules">
                     {!show
                       ? data.modules_S1.map((module, index) => {
+                        if(module.module_name!==""){
                           return (
                             <div
                               key={index}
-                              className={
-                                module.active
-                                  ? "module_container clicked"
-                                  : "module_container"
-                              }
+                              className=
+                                  "module_container"
+                              
                             >
                               <a href={module.link}>
                               <div className="module">
@@ -154,17 +148,15 @@ export default function Year ({data}){
                               </a>
                             
                             </div>
-                          );
+                          )};
                         })
                       : data.modules_S2.map((module, index) => {
+                        if(module.module_name!==""){
                           return (
                             <div
                               key={index}
-                              className={
-                                module.active
-                                  ? "module_container clicked"
-                                  : "module_container"
-                              }
+                              className=                                 
+                                   "module_container"                             
                             >
                               <a href={module.link}>
                               <div className="module">
@@ -184,7 +176,7 @@ export default function Year ({data}){
                               </a>
                            
                             </div>
-                          );
+                          )};
                         })}
                   </div>
                 </div>}
