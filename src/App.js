@@ -1,7 +1,7 @@
 
 
 import "./App.css";
-import { useState } from "react";
+
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -10,12 +10,7 @@ import Year from "./components/year";
 
 function App() {
 
-  
-
  
-
-
-  
   return (
     <div className="App">
       <div className="blur1"></div>

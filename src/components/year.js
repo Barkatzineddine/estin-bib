@@ -5,19 +5,14 @@ export default function Year ({data}){
 
     const [show, setShow] = useState(false);
 
-    const[change,setChange]= useState(1)
+    
 
   
-  const activate=(module)=>{
-    if(!module.active){
-      module.active=true
-    }else{
-      module.active=false
-    }
+ 
 
-    setChange((prevent) => prevent * -1);
+    
 
-  }
+  
 
     return (
       <>
@@ -40,7 +35,9 @@ export default function Year ({data}){
                                 : "module_container"
                             }
                           >
+                            <a href={module.link}>
                             <div className="module">
+                              
                               <div className="img_name">
                                 <img
                                   alt="img"
@@ -51,35 +48,10 @@ export default function Year ({data}){
                                 <span className="moduleName">
                                   {module.module_name}
                                 </span>
-                              </div>
-                              <img
-                                alt="img"
-                                loading="lazy"
-                                className="drop_down"
-                                src="/dropDown.svg"
-                                onClick={(e) => {
-                                  activate(module);
-  
-                                  if (e.target.style.transform === "") {
-                                    e.target.style.transform = "rotate(180deg)";
-                                  } else {
-                                    e.target.style.transform = "";
-                                  }
-  
-                                  
-                                }}
-                              />
+                              </div> 
                             </div>
-                            <div>
-                              {module.tabs.map((tab)=>{
-                                return(
-
-                                  <span><a href={tab.link}>{tab.name}</a></span>
-
-                                )
-                              })}
-                                  
-                            </div>
+                            </a>
+                            
                           </div>
                         );
                       })}
@@ -98,6 +70,7 @@ export default function Year ({data}){
                                 : "module_container"
                             }
                           >
+                            <a href={module.link}>
                             <div className="module">
                               <div className="img_name">
                                 <img
@@ -110,32 +83,9 @@ export default function Year ({data}){
                                   {module.module_name}
                                 </span>
                               </div>
-                              <img
-                                loading="lazy"
-                                alt="img"
-                                className="drop_down"
-                                src="/dropDown.svg"
-                                onClick={(e) => {
-                                  activate(module);
-  
-                                  if (e.target.style.transform === "") {
-                                    e.target.style.transform = "rotate(180deg)";
-                                  } else {
-                                    e.target.style.transform = "";
-                                  }
-                                }}
-                              />
+                            
                             </div>
-                            <div>
-                              {module.tabs.map((tab)=>{
-                                return(
-
-                                  <span><a href={tab.link}>{tab.name}</a></span>
-
-                                )
-                              })}
-                                  
-                            </div>
+                            </a>
                           </div>
                         );
                       })}
@@ -186,6 +136,7 @@ export default function Year ({data}){
                                   : "module_container"
                               }
                             >
+                              <a href={module.link}>
                               <div className="module">
                                 <div className="img_name">
                                   <img
@@ -198,34 +149,10 @@ export default function Year ({data}){
                                     {module.module_name}
                                   </span>
                                 </div>
-                                <img
-                                  alt="img"
-                                  loading="lazy"
-                                  className="drop_down"
-                                  src="/dropDown.svg"
-                                  onClick={(e) => {
-                                    activate(module);
-  
-                                    if (e.target.style.transform === "") {
-                                      e.target.style.transform = "rotate(180deg)";
-                                    } else {
-                                      e.target.style.transform = "";
-                                    }
-  
-                                    ;
-                                  }}
-                                />
+                               
                               </div>
-                              <div>
-                              {module.tabs.map((tab)=>{
-                                return(
-
-                                  <span><a href={tab.link}>{tab.name}</a></span>
-
-                                )
-                              })}
-                                  
-                            </div>
+                              </a>
+                            
                             </div>
                           );
                         })
@@ -239,6 +166,7 @@ export default function Year ({data}){
                                   : "module_container"
                               }
                             >
+                              <a href={module.link}>
                               <div className="module">
                                 <div className="img_name">
                                   <img
@@ -251,32 +179,10 @@ export default function Year ({data}){
                                     {module.module_name}
                                   </span>
                                 </div>
-                                <img
-                                  alt="img"
-                                  loading="lazy"
-                                  className="drop_down"
-                                  src="/dropDown.svg"
-                                  onClick={(e) => {
-                                    activate(module);
-  
-                                    if (e.target.style.transform === "") {
-                                      e.target.style.transform = "rotate(180deg)";
-                                    } else {
-                                      e.target.style.transform = "";
-                                    }
-                                  }}
-                                />
+                                
                               </div>
-                              <div>
-                              {module.tabs.map((tab)=>{
-                                return(
-
-                                  <span><a href={tab.link}>{tab.name}</a></span>
-
-                                )
-                              })}
-                                  
-                            </div>
+                              </a>
+                           
                             </div>
                           );
                         })}

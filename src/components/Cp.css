@@ -36,6 +36,10 @@ padding-bottom: 150px;
     
 }
 
+.modules a{
+    color: black;
+}
+
 .semestres{
     display: flex;
     width: 80%;
@@ -61,13 +65,7 @@ header{
   
 }
 
-.modules_2{
-    position: absolute;
-    right:-600px;
-    transition: all ease-in 0.5s;
-    z-index: -100;
 
-}
 .modules{
     position: relative;
     z-index: 0;
@@ -94,7 +92,7 @@ header{
     padding: 0 20px 0px 20px;
 }
 .img_name{
-    width: 90%;
+    width: 100%;
     display: flex;
     align-items: center;
     padding: 5px;
@@ -118,52 +116,7 @@ header{
 font-size: 1.3vw;
 }
 
-.drop_div{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    height: 0;
-    width: 100%;
-    font-size: 0px;
-   
-   
 
-}
-.drop_div a{
-    color: black;
-}
-.modules_2{
-    transition: all ease 0.5s;
-}
-.module_1{
-    transition: all ease 0.5s;
-}
-
-.clicked .drop_div{
-    
-    height: fit-content;
-    font-size: 20px; 
-    
-    transition: all 0.1s ease 0s,visibility 0s linear;
-   
-    border-style: solid;
-    border-color: #0000000D;
-    border-width: 0 0 2px 0;
-    cursor: pointer;
-      
-}
-
-.clicked .drop_div span{
-    transition-duration: 0s;
-    height: fit-content;
-    padding: 20px 10px 20px 10px;
-       
-}
-.clicked .drop_div span:hover{
-    height: fit-content;
-   
-    background-color: #EAEEF2;
-    
-}
 header{
     display: flex;
     justify-content: center;
@@ -174,20 +127,12 @@ header{
     cursor: pointer;
     color: white;
 }
-.drop_down{
-    cursor: pointer;
-    width: 25px;
-    height: 12px;
-    margin-left: 5px;
-    padding: 10px;
-}
+
 
 .module_container:last-child .module{
     border-width:0 ;
 }
-.clicked:last-child .drop_div{
-    border-width: 2px 0 0 0;
-}
+
 .semestres_mobile .module_2{
     position: relative;
     right: -500px;
@@ -206,15 +151,7 @@ header{
         height: 25px;
     
     }
-    .clicked .drop_div{
-        font-size: 16px;
-              
-    }
-
-    .drop_down{     
-        width: 20px;
-        height: 10px;
-    }
+   
 
     .module{
        
@@ -265,12 +202,7 @@ header{
         margin-right: 9px;
     
     }
-    .drop_down{
-        cursor: pointer;
-        width: 17px;
-        height: 9px;
-        margin-left: 5px;
-    }
+
 }
 
 @media screen and (max-width:640px) {
@@ -342,16 +274,7 @@ header{
     .semestres_mobile .module{
         padding: 5px 0 5px 0px;
     }
-    .clicked .drop_div{
-        padding: 0;
-        font-size: 15px; ;
-     
-    }
-    .clicked .drop_div span{
-        padding: 15px 10px 15px 10px;
-        
-     
-    }
+
     header{
         font-size: 18px;
     }
