@@ -9,9 +9,12 @@ const Footer = () => {
             <div class="collect-content">
               <div class="content">
                 <p>“Sharing is caring”</p>
-                <button>
-                  Contribuer<a href=""></a>
-                </button>
+
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link">
+                    <button>
+                    Contribuer
+                   </button>
+                </a>
               </div>
               <div class="content">
                 <img
@@ -74,7 +77,7 @@ const Footer = () => {
 
       <div className="footer_mobile">
         <p>"SHARING IS CARING"</p>
-        <button>Contribuer</button>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSccoCvtx3B7JIcNkaw9HmhAslbD_AtH61yetyYeUkrLGrVdwA/viewform?usp=sf_link"><button>Contribuer</button></a>
         <h2>Contact Us</h2>
         <form class="content">
           <input type="text" placeholder="Name" />
