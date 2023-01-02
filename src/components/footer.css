@@ -94,8 +94,11 @@ textarea::placeholder {
 }
 .second-part {
   padding: 1em;
+<<<<<<< HEAD
   width: 119px;
   height: 43px;
+=======
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
 }
 .third-part {
   display: flex;
@@ -147,8 +150,12 @@ textarea::placeholder {
   flex-direction: column;
 }
 .img-gdsc {
+<<<<<<< HEAD
   width: 150px !important;
   height: 93px;
+=======
+  width: 12vw !important;
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
   min-width: 150px;
 }
 .first-part button {
@@ -157,12 +164,18 @@ textarea::placeholder {
 .social-img img {
   cursor: pointer;
   min-width: 25px;
+<<<<<<< HEAD
   width: 25px;
   height: 31px;
 }
 .img {
   width:283px ;
   height: 17px;
+=======
+}
+.img {
+  width: 90%;
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
   max-height: 2rem;
 }
 

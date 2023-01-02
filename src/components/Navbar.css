@@ -18,7 +18,10 @@
 }
 .logo {
   width: 140px;
+<<<<<<< HEAD
   height: 37px;
+=======
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
   z-index: 1;
   margin-left: 20px;
   display: block;
@@ -133,7 +136,11 @@
   color: black;
   transition: all 0.3s ease-in 0s;
   font-family: "Poppins";
+<<<<<<< HEAD
  
+=======
+  border-radius: 0 0 20px 20px;
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
 }
 
 .mobile_nav_clicked {
@@ -153,7 +160,11 @@
   color: black;
   transition: all 0.8s ease 0s;
   font-family: "Poppins";
+<<<<<<< HEAD
   
+=======
+  border-radius: 0 0 20px 20px;
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
 }
 
 .main_nav span a,
@@ -180,8 +191,11 @@ button a {
 .hamburger {
   display: none;
   margin-right: 20px;
+<<<<<<< HEAD
   width: 28px;
   height: 25px;
+=======
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
 }
 .mobile_nav button,
 .mobile_nav_clicked button {
@@ -221,7 +235,10 @@ button a {
     width: 125px;
     margin-top: 10px;
     margin-left: 10px;
+<<<<<<< HEAD
     height: 30px;
+=======
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
   }
   .navbarRight {
     margin-right: 10px;

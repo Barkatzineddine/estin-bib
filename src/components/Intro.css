@@ -115,9 +115,12 @@
     bottom: -120px;
   }
 }
+<<<<<<< HEAD
 
 @media screen and (max-width: 1200px) and (min-height: 900px) {
   .intro{
     height: 40vh;
   }
 }
+=======
+>>>>>>> c42802b929e4c578cc15698cbfd4e29e790e5738
