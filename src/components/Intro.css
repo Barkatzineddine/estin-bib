@@ -1,140 +1,123 @@
-.intro{
-    background-color: #4B7BEC;
-    position: relative;
-    width: 100%;
-    min-height: 350px;
-     
-     padding-bottom: 0;
-     height: 75vh;
-     display: flex;
-     flex-direction: column;
-     color: white;
-     font-family: 'Poppins';
-    font-style: normal; 
-     align-items: center;
-     padding-top: 200px;
-     z-index: -1;
-     
-    
+.intro {
+  background-color: #4b7bec;
+  position: relative;
+  width: 100%;
+  min-height: 350px;
+
+  padding-bottom: 0;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  align-items: center;
+  padding-top: 200px;
+  z-index: -1;
 }
-.intro span{
-    color: white;
-     font-family: 'Poppins';
-    font-style: normal; 
+.intro span {
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
 }
-.intro h1{
-    margin: 0px !important;
+.intro h1 {
+  margin: 0px !important;
 }
-.bib_mobile{
-    display: none;
+.bib_mobile {
+  display: none;
 }
 
-.bib{
+.bib {
+  position: absolute;
+  bottom: -150px;
+  width: 85%;
+  height: 75%;
+  z-index: 0;
+}
+.vecteur {
+  position: absolute;
+  width: 100%;
+  bottom: -30px;
+}
+
+@media screen and (max-width: 1000px) {
+  .bib {
+    bottom: -160px;
+  }
+  .intro {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 645px) {
+  .bib {
+    display: none;
+  }
+
+  .bib_mobile {
+    display: block;
     position: absolute;
-    bottom: -150px;
+    bottom: -175px;
     width: 85%;
     height: 75%;
     z-index: 0;
-
-     
-}
-.vecteur{
-    position: absolute;
-    width: 100%;
-    bottom:-30px;
-    
+  }
 }
 
-@media screen and (max-width:1000px){
-
-    .bib{
-        bottom: -160px;
-    }
-    .intro{
-        height: 65vh;
-    }
-  
+@media screen and (max-width: 540px) {
+  .bib_mobile {
+    bottom: -100px;
+    width: 90%;
+  }
+  .vecteur {
+    display: none;
+  }
+  .intro {
+    height: 38vh;
+    padding-top: 90px;
+  }
+  .intro h1 {
+    font-size: 22px;
+  }
 }
-
-@media screen and (max-width:645px) {
-    .bib{
-      display: none;
-    }
-
-    .bib_mobile{
-        display: block;
-        position: absolute;
-        bottom: -175px;
-        width: 85%;
-        height: 75%;
-        z-index: 0;
-    
-         
-    }}
-
-    @media screen and (max-width:540px) {
-        
-    
-        .bib_mobile{
-          
-            bottom: -100px;  
-            width: 90%; 
-        }
-        .vecteur{
-            display: none;
-        }
-       .intro {
-            height: 38vh;
-            padding-top: 90px;
-            
-        }
-        .intro h1{
-            font-size: 22px;
-        }     
-}
-@media screen and (max-width:480px) {
-        
-    
-  .bib_mobile{
+@media screen and (max-width: 480px) {
+  .bib_mobile {
     bottom: -110px;
   }
-   .intro {
-        min-height:300px;
-        
-    }
-   
+  .intro {
+    min-height: 300px;
+  }
 }
 
-@media screen and (max-height:580px) {
-
-    .bib{
-        bottom: -24vh;
-        width: 90%;
-    }
-    .intro{
-        padding-top: 100px;
-        
-    }
-    .intro h1{
-
-        font-size: 20px;
-
-    }
-    .intro p{
-        font-size: 13px;
-    }
-
+@media screen and (max-height: 580px) {
+  .bib {
+    bottom: -24vh;
+    width: 90%;
+  }
+  .intro {
+    padding-top: 100px;
+  }
+  .intro h1 {
+    font-size: 20px;
+  }
+  .intro p {
+    font-size: 13px;
+  }
 }
-@media screen and (max-width:645px) and (max-height:580px){
-
-    .bib_mobile{
-        bottom: -21vh;
-    }
+@media screen and (max-width: 645px) and (max-height: 580px) {
+  .bib_mobile {
+    bottom: -21vh;
+  }
 }
 
-@media screen and (max-width:645px) and (max-height:540px){
+@media screen and (max-width: 645px) and (max-height: 540px) {
+  .bib_mobile {
+    bottom: -120px;
+  }
+}
 
-    .bib_mobile{
-        bottom: -120px;
-    }
+@media screen and (max-width: 1200px) and (min-height: 900px) {
+  .intro{
+    height: 40vh;
+  }
 }

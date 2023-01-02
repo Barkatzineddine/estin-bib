@@ -1,7 +1,11 @@
 [
     {
-        "year":"1CP",
-        "modules_S1":[
+        "year":{
+            "year":"1CP",
+            "link":"https://drive.google.com/drive/folders/1y_NcxR4R2jtLCW_-tHNujDrpng6qoMVM?usp=share_link"
+        },
+        "modules_S1":{
+            "modules":[
             
                 {"module_name":"Algebre_01","link":"https://drive.google.com/drive/folders/10dLIFjqygkS6wXClRaN4fKH-vZezEYeX?usp=share_link"} ,       
                { "module_name":"Algo_et_structure_de_donnees_statiques_01","link":"https://drive.google.com/drive/folders/1T97Sw8-gMgaK6skE0tASpXun2f1CSzPX?usp=share_link"} ,         
@@ -10,111 +14,152 @@
                 {"module_name":"Bureautique_et_web","link":"https://drive.google.com/drive/folders/1CNyUD-IcFKbh_BfV19N_wKLxa_y16R0S?usp=share_link"},
                 {"module_name":"Elec_01","link":"https://drive.google.com/drive/folders/1IoBEJU7Se7n2Kw4UGWUVuuOPM1yAz0Iw?usp=share_link"} ,       
                 { "module_name":"English_01","link":"https://drive.google.com/drive/folders/1I5OxtRmqxjhNqkffCOWGt2Llg0KvWOKj?usp=share_link"} ,
-                {"module_name":"Intro_sys","link":"https://drive.google.com/drive/folders/1d2Rbd83BwKkVd_zuZkyxjnDQnjAITB2L?usp=share_link"}
-        ],
-        "modules_S2":[
+                {"module_name":"Intro_sys","link":"https://drive.google.com/drive/folders/1d2Rbd83BwKkVd_zuZkyxjnDQnjAITB2L?usp=share_link"}]
+
+            ,"link":"https://drive.google.com/drive/folders/1_iMyvetpLVg7T82FDllYBkKIaxnpYzZs?usp=share_link"
+    },
+        "modules_S2":{
+            "modules":[
            
             
-            {"module_name":"Algebre_02","link":"https://drive.google.com/drive/folders/1U56dbd7ZxCgWCy0h9Oo6r--l0uOMMPFj?usp=share_link"} ,       
-            { "module_name":"Algo_et_struc_de_donnees_dynamique","link":"https://drive.google.com/drive/folders/1E7H3q9xz3eGUnolxNyQmobeiGMTmkAMG?usp=share_link"} ,         
-            { "module_name":"Analyse_mathematique_02","link":"https://drive.google.com/drive/folders/1klJQ7CHW5jEe8_Ju_kiE5rPglzX9aJmU?usp=share_link"} ,         
-             {"module_name":"Electronique_fondamentale_01","link":"https://drive.google.com/drive/folders/1DejTTm3S1M1J3PJm2vGvaT9B2sjPT-r6?usp=share_link"} ,             
-             {"module_name":"Mecanique_du_point","link":"https://drive.google.com/drive/folders/123ts6DsKp5mra7zGgCddKDxSo-dJTMFg?usp=share_link"},
-             {"module_name":"Technique d'expression","link":"https://drive.google.com/drive/folders/18IIg4cvThVquFWj6RkEEVDmeaNNByITB?usp=share_link"} ,       
-             { "module_name":"English_02","link":"https://drive.google.com/drive/folders/17vY1AsW0nGe_KL7PFVG4PUXOjDcVkiDN?usp=share_link"} ,
-             {"module_name":"Intro_sys_02","link":"https://drive.google.com/drive/folders/1mRK4F160a8mYpizFb5tWscZrDHi7OX0o?usp=share_link"}
-        ]
+                {"module_name":"Algebre_02","link":"https://drive.google.com/drive/folders/1U56dbd7ZxCgWCy0h9Oo6r--l0uOMMPFj?usp=share_link"} ,       
+                { "module_name":"Algo_et_struc_de_donnees_dynamique","link":"https://drive.google.com/drive/folders/1E7H3q9xz3eGUnolxNyQmobeiGMTmkAMG?usp=share_link"} ,         
+                { "module_name":"Analyse_mathematique_02","link":"https://drive.google.com/drive/folders/1klJQ7CHW5jEe8_Ju_kiE5rPglzX9aJmU?usp=share_link"} ,         
+                {"module_name":"Electronique_fondamentale_01","link":"https://drive.google.com/drive/folders/1DejTTm3S1M1J3PJm2vGvaT9B2sjPT-r6?usp=share_link"} ,             
+                {"module_name":"Mecanique_du_point","link":"https://drive.google.com/drive/folders/123ts6DsKp5mra7zGgCddKDxSo-dJTMFg?usp=share_link"},
+                {"module_name":"Technique d'expression","link":"https://drive.google.com/drive/folders/18IIg4cvThVquFWj6RkEEVDmeaNNByITB?usp=share_link"} ,       
+                { "module_name":"English_02","link":"https://drive.google.com/drive/folders/17vY1AsW0nGe_KL7PFVG4PUXOjDcVkiDN?usp=share_link"} ,
+                {"module_name":"Intro_sys_02","link":"https://drive.google.com/drive/folders/1mRK4F160a8mYpizFb5tWscZrDHi7OX0o?usp=share_link"}]
+
+             ,"link":"https://drive.google.com/drive/folders/1nSgK1dtOUFzE3BLe29X-8_x5wdG6FtMv?usp=share_link"
+            }
 
         },
     {
-        "year":"2CP",
-        "modules_S1":[
+        "year":{
+            "year":"2CP",
+            "link":"https://drive.google.com/drive/folders/1WG3mTgflvHsqdU55h0ouuEXeFR2mdfTd?usp=share_link"
+        },
+
+        "modules_S1":{
+            "modules":[
           
-            {"module_name":"Analyse_03","link":"https://drive.google.com/drive/folders/1HrnqNBEoE3SVA000NlQJiY39-lCIJgV_?usp=share_link"} ,       
-               { "module_name":"Algebre_03","link":"https://drive.google.com/drive/folders/1dYYj4P6J1GJ0-yU8iS721qtX0tRfKwKw?usp=share_link"} ,         
-               { "module_name":"Archi_02","link":"https://drive.google.com/drive/folders/1vPBcIJiwCRuAYrKKgMYE8_AdJUyjBQ5M?usp=share_link"} ,         
+                {"module_name":"Analyse_03","link":"https://drive.google.com/drive/folders/1HrnqNBEoE3SVA000NlQJiY39-lCIJgV_?usp=share_link"} ,       
+                { "module_name":"Algebre_03","link":"https://drive.google.com/drive/folders/1dYYj4P6J1GJ0-yU8iS721qtX0tRfKwKw?usp=share_link"} ,         
+                { "module_name":"Archi_02","link":"https://drive.google.com/drive/folders/1vPBcIJiwCRuAYrKKgMYE8_AdJUyjBQ5M?usp=share_link"} ,         
                 {"module_name":"Economie d'entreprise","link":"https://drive.google.com/drive/folders/1IShnlZ-Ta66SBHAec8WuFMbPYXOwzBuN?usp=share_link"} ,             
                 {"module_name":"Electronique_fondamentale_02","link":"https://drive.google.com/drive/folders/1wEPwdCVzxiF6Vv5A2RX7QEZ8tZvnZOfz?usp=share_link"},
                 {"module_name":"ProbaStat_01","link":"https://drive.google.com/drive/folders/1SjcTvY_vDQPio5-LkLOuPO40Qz3P_3vR?usp=share_link"} ,
-                {"module_name":"SFSD","link":"https://drive.google.com/drive/folders/1B2FbuiKk1w-lHoSTg_kvEfehAVWlO1Vz?usp=share_link"} 
-        ],
-        "modules_S2":[
+                {"module_name":"SFSD","link":"https://drive.google.com/drive/folders/1B2FbuiKk1w-lHoSTg_kvEfehAVWlO1Vz?usp=share_link"} ],
+
+            "link":"https://drive.google.com/drive/folders/1LoM15WZ6WBkBC5ty5Sji4FTrtx23cKQN?usp=share_link"
+            },
+        "modules_S2":{
+            "modules":[
            
-            {"module_name":"Analyse_04","link":"https://drive.google.com/drive/folders/1b7neIssQHINCNaOZf1DHrGSmKhvS7XoB?usp=share_link"} ,       
-            { "module_name":"Introduction aux SI","link":"https://drive.google.com/drive/folders/1Vg39xi7CQJfWuExZXC5sasdXMxXkGYWW?usp=share_link"} ,         
-            { "module_name":"Logique mathematique","link":"https://drive.google.com/drive/folders/1c83QnJUpyBK86b9iMDjLWNRdCyUQwSHJ?usp=share_link"} ,         
-             {"module_name":"Optiques et ondes elctromagnetique","link":"https://drive.google.com/drive/folders/1EU4p3-0TMeXL3mqeyJ2rXgG4n80IInCY?usp=share_link"} ,             
-             {"module_name":"Probabilite et statistique_2","link":"https://drive.google.com/drive/folders/1bj9zi2ifXMtYZqreupteRUwtIWhZXYGg?usp=share_link"},
-             {"module_name":"Programmation orientee objet","link":"https://drive.google.com/drive/folders/1giHVaYUYlXNuG67HRlRggp1vTkrE1Rfy?usp=share_link"},
-             {"module_name":"Concours","link":"https://drive.google.com/drive/folders/1S7TaP9PErSwzFaq1Y5b3s6wc_tqZzQg7?usp=share_link"}
+                {"module_name":"Analyse_04","link":"https://drive.google.com/drive/folders/1b7neIssQHINCNaOZf1DHrGSmKhvS7XoB?usp=share_link"} ,       
+                { "module_name":"Introduction aux SI","link":"https://drive.google.com/drive/folders/1Vg39xi7CQJfWuExZXC5sasdXMxXkGYWW?usp=share_link"} ,         
+                { "module_name":"Logique mathematique","link":"https://drive.google.com/drive/folders/1c83QnJUpyBK86b9iMDjLWNRdCyUQwSHJ?usp=share_link"} ,         
+                {"module_name":"Optiques et ondes elctromagnetique","link":"https://drive.google.com/drive/folders/1EU4p3-0TMeXL3mqeyJ2rXgG4n80IInCY?usp=share_link"} ,             
+                {"module_name":"Probabilite et statistique_2","link":"https://drive.google.com/drive/folders/1bj9zi2ifXMtYZqreupteRUwtIWhZXYGg?usp=share_link"},
+                {"module_name":"Programmation orientee objet","link":"https://drive.google.com/drive/folders/1giHVaYUYlXNuG67HRlRggp1vTkrE1Rfy?usp=share_link"},
+                {"module_name":"Concours","link":"https://drive.google.com/drive/folders/1S7TaP9PErSwzFaq1Y5b3s6wc_tqZzQg7?usp=share_link"}],
+
+             "link":"https://drive.google.com/drive/folders/1Ahm9BKJCs-EYX80qlzEJ50TcmrWaSxXW?usp=share_link"
              
-        ]
+        }
 
     },
     {
-        "year":"1CS",
-        "modules_S1":[
+        "year":{
+            "year":"1CS",
+            "link":"https://drive.google.com/drive/folders/1qqKpXyTiIzzOt-8ERRYGwdF1tr6PVHxI?usp=share_link"
+        },
+        "modules_S1":{
+            "modules":[
             
                 {"module_name":"ANG","link":"https://drive.google.com/drive/folders/1Yvhz27qkbEvTqcUbZ3odcJeDrHX82j2I?usp=share_link"} ,       
-               { "module_name":"BDD","link":"https://drive.google.com/drive/folders/1eXXbGSCX5IuflFlY74c2WcGHw1zhGk9k?usp=share_link"} ,         
-               { "module_name":"GL","link":"https://drive.google.com/drive/folders/1z5fwOu8dAJFVZinKhJx75nW5p_bzU3b2?usp=share_link"} ,         
+                { "module_name":"BDD","link":"https://drive.google.com/drive/folders/1eXXbGSCX5IuflFlY74c2WcGHw1zhGk9k?usp=share_link"} ,         
+                { "module_name":"GL","link":"https://drive.google.com/drive/folders/1z5fwOu8dAJFVZinKhJx75nW5p_bzU3b2?usp=share_link"} ,         
                 {"module_name":"PAFA","link":"https://drive.google.com/drive/folders/1O2ioD5mob4_GwW35N1nD96zQA8rbusTG?usp=share_link"} ,
                 {"module_name":"RO_1","link":"https://drive.google.com/drive/folders/1pxxw4gv9F8Sn1C27F6NaFBVZiMmoOnIc?usp=share_link"} ,
                 {"module_name":"RX_1","link":"https://drive.google.com/drive/folders/1jskq6uf5PeLTbzwVoQWanERH1Qn7zU_6?usp=share_link"} ,
                 {"module_name":"SE","link":"https://drive.google.com/drive/folders/173lKm3_LxQwC2J7zDupy-AQm_3Hp92Wc?usp=share_link"} ,             
-                {"module_name":"THL","link":"https://drive.google.com/drive/folders/1asIAQ9dNu-FcC0Jz4ORcDHC5dkRsmz7h?usp=share_link"}
-        ],
-        "modules_S2":[
-            {"module_name":"ADCI","link":"https://drive.google.com/drive/folders/1KH64Ahb9xYl3Cvv6e9JhTbNUewoJggkL?usp=share_link"} ,       
-               { "module_name":"ANUM","link":"https://drive.google.com/drive/folders/1LF1AyV9ej1mcVFe01D7kXAdZgjshG5vR?usp=share_link"} ,         
-               { "module_name":"ESTN","link":"https://drive.google.com/drive/folders/1dR7GbKEFysFc6wzhlxIqRvWEcSHZn_JF?usp=share_link"} ,         
+                {"module_name":"THL","link":"https://drive.google.com/drive/folders/1asIAQ9dNu-FcC0Jz4ORcDHC5dkRsmz7h?usp=share_link"}],
+
+            "link":"https://drive.google.com/drive/folders/1tATabrZaE5PjsFg9ykzbhjHRr8LA2Gyx?usp=share_link"
+        },
+        "modules_S2":{
+            "modules":[
+                {"module_name":"ADCI","link":"https://drive.google.com/drive/folders/1KH64Ahb9xYl3Cvv6e9JhTbNUewoJggkL?usp=share_link"} ,       
+                { "module_name":"ANUM","link":"https://drive.google.com/drive/folders/1LF1AyV9ej1mcVFe01D7kXAdZgjshG5vR?usp=share_link"} ,         
+                { "module_name":"ESTN","link":"https://drive.google.com/drive/folders/1dR7GbKEFysFc6wzhlxIqRvWEcSHZn_JF?usp=share_link"} ,         
                 {"module_name":"IA","link":"https://drive.google.com/drive/folders/1bQ-omMqTauiKB6HD6jt-fmJk7toefQJp?usp=share_link"} ,
                 {"module_name":"MF","link":"https://drive.google.com/drive/folders/1XzQxPePuZDZaudFQgOEe2YLSRXabIHcP?usp=share_link"} ,
                 {"module_name":"RO_2","link":"https://drive.google.com/drive/folders/1t6YGkPN_2a4VsaxfIgz-dgbrhMHILRnt?usp=share_link"} ,
                 {"module_name":"RX_2","link":"https://drive.google.com/drive/folders/1AS0FUcKUmqwvp5O6tGHUkhp74fvfwo9x?usp=share_link"} ,             
-                {"module_name":"SEC","link":"https://drive.google.com/drive/folders/1iQmrbK-U-amLBE3LCcjuu0WFGDxgEbA4?usp=share_link"}
-        ]
+                {"module_name":"SEC","link":"https://drive.google.com/drive/folders/1iQmrbK-U-amLBE3LCcjuu0WFGDxgEbA4?usp=share_link"}],
+
+            "link":"https://drive.google.com/drive/folders/17383Vk5zYI2tIro3CV4ofVR3U2HaCL2-?usp=share_link"
+        }
 
         }, {
-            "year":"2CS",
-            "modules_S1":[
+            "year":{
+                "year":"2CS",
+                "link":"https://drive.google.com/drive/folders/1KzJpqP-WTMRjNb_CIRF630bvIMWpAM7Q?usp=share_link"
+            },
+            "modules_S1":{
+                "modules":[
                 
                     {"module_name":"ANAD","link":"https://drive.google.com/drive/folders/1l2TN2rcXIa4_2nhPvsPPvB14H7Bm0p9E?usp=share_link"} ,       
-                   { "module_name":"ANG","link":"https://drive.google.com/drive/folders/1UEJgt7D9JAvfCuqCGMEkUtRZUJviGfeS?usp=share_link"} ,         
-                   { "module_name":"BDA","link":"https://drive.google.com/drive/folders/1y7fBpUa75xIIYruw1NztWSfhKtEnczAJ?usp=share_link"} ,         
+                    { "module_name":"ANG","link":"https://drive.google.com/drive/folders/1UEJgt7D9JAvfCuqCGMEkUtRZUJviGfeS?usp=share_link"} ,         
+                    { "module_name":"BDA","link":"https://drive.google.com/drive/folders/1y7fBpUa75xIIYruw1NztWSfhKtEnczAJ?usp=share_link"} ,         
                     {"module_name":"CLD","link":"https://drive.google.com/drive/folders/1Rxd9rmDTX_DGsJm8SddtKCBnUT9YN0wt?usp=share_link"} ,
                     {"module_name":"COMP","link":"https://drive.google.com/drive/folders/1gUbQysddOvVAhTHwiPeZa6O6YugmmLd8?usp=share_link"} ,
                     {"module_name":"CPRJ","link":"https://drive.google.com/drive/folders/15VGrZLKFPypW6zgp9Uk1meC70heW-03j?usp=share_link"} ,
                     {"module_name":"FDS","link":"https://drive.google.com/drive/folders/1Gooo7K_CATIllFNgDhEPQF0mPsz2xnNn?usp=share_link"} ,             
-                    {"module_name":"IGL","link":"https://drive.google.com/drive/folders/1rmOAdZ2bdgh_ktqfVl1MTMyG5GumQBim?usp=share_link"}
-            ],
-            "modules_S2":[
+                    {"module_name":"IGL","link":"https://drive.google.com/drive/folders/1rmOAdZ2bdgh_ktqfVl1MTMyG5GumQBim?usp=share_link"}],
+
+                "link":"https://drive.google.com/drive/folders/1hILie5QLJrXUpBfIWI6lRJlAx7USgjyU?usp=share_link"
+            },
+            "modules_S2":{
+                "modules":[
               
-                {"module_name":"","link":""} ,       
-                { "module_name":"","link":""} ,         
-                { "module_name":"","link":""} ,         
-                 {"module_name":"","link":""} ,             
-                 {"module_name":"","link":""}
-            ]
+                      {"module_name":"","link":""} ,       
+                      { "module_name":"","link":""} ,         
+                      { "module_name":"","link":""} ,         
+                      {"module_name":"","link":""} ,             
+                      {"module_name":"","link":""}],
+
+                 "link":"https://drive.google.com/drive/folders/1JXuuiZ61s0a2NgwSIE970EG7mby5dj61?usp=share_link"
+            }
     
             }, {
-                "year":"3CS",
-                "modules_S1":[
-                    
+                "year":{
+                    "year":"3CS",
+                    "link":"https://drive.google.com/drive/folders/1uMUhCtz7RhZbVVEJAUwdglxmtNVLk5Yc?usp=share_link"
+                },
+                "modules_S1":{
+                    "modules":[
+              
+                         {"module_name":"","link":""} ,       
+                         { "module_name":"","link":""} ,         
+                         { "module_name":"","link":""} ,         
+                         {"module_name":"","link":""} ,             
+                         {"module_name":"","link":""}],
+
+                    "link":"https://drive.google.com/drive/folders/1sQURH9oiqMJlIg23vQR7_tnTTYc_KnIb?usp=share_link"
+                },
+                "modules_S2":{
+                    "modules":[
+              
                         {"module_name":"","link":""} ,       
-                       { "module_name":"","link":""} ,         
-                       { "module_name":"","link":""} ,         
+                        {"module_name":"","link":""} ,         
+                        {"module_name":"","link":""} ,         
                         {"module_name":"","link":""} ,             
-                        {"module_name":"","link":""}
-                ],
-                "modules_S2":[
-                  
-                 
-                    {"module_name":"","link":""} ,       
-                    { "module_name":"","link":""} ,         
-                    { "module_name":"","link":""} ,         
-                     {"module_name":"","link":""} ,             
-                     {"module_name":"","link":""}
-                ]
+                        {"module_name":"","link":""}],
+
+                     "link":"https://drive.google.com/drive/folders/1FNuQJQoBgkBrzFJdsDlKaMdFhp67J7W2?usp=share_link"
+                }
         
                 }]

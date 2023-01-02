@@ -1,7 +1,6 @@
 import "./footer.css";
 
-
-const Footer = ()=> {
+const Footer = () => {
   return (
     <>
       <div class="bottom-page">
@@ -15,12 +14,40 @@ const Footer = ()=> {
                 </button>
               </div>
               <div class="content">
-                <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
+                <img
+                  className="img-gdsc"
+                  src="./img-gdsc.svg"
+                  alt="img"
+                  loading="lazy"
+                />
                 <div class="social-img">
-
-                 <a href="https://www.linkedin.com/company/gdsc-estin/"> <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/> </a> 
-                  <a href="https://www.instagram.com/gdsc_estin/"> <img class="insta" src="./insta.svg" alt="img" loading="lazy"/> </a>
-                <a href="https://facebook.com/gdscestin"> <img class="fb" src="./fb.svg" alt="img" loading="lazy"/> </a>  
+                  <a href="https://www.linkedin.com/company/gdsc-estin/">
+                    {" "}
+                    <img
+                      class="linkdin"
+                      src="./linkdin.svg"
+                      alt="img"
+                      loading="lazy"
+                    />{" "}
+                  </a>
+                  <a href="https://www.instagram.com/gdsc_estin/">
+                    {" "}
+                    <img
+                      class="insta"
+                      src="./insta.svg"
+                      alt="img"
+                      loading="lazy"
+                    />{" "}
+                  </a>
+                  <a href="https://facebook.com/gdscestin">
+                    {" "}
+                    <img
+                      class="fb"
+                      src="./fb.svg"
+                      alt="img"
+                      loading="lazy"
+                    />{" "}
+                  </a>
                 </div>
               </div>
             </div>
@@ -38,11 +65,10 @@ const Footer = ()=> {
           </div>
         </div>
 
-        <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
+        <img class="second-part" src="./estin.svg" alt="img" loading="lazy" />
         <div class="third-part">
-          
           <p>Made by</p>
-          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy"/>
+          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy" />
         </div>
       </div>
 
@@ -58,21 +84,43 @@ const Footer = ()=> {
         <button>
           Send<a href=""></a>
         </button>
-        <img className="img-gdsc" src="./img-gdsc.svg" alt="img" loading="lazy"/>
+        <img
+          className="img-gdsc"
+          src="./img-gdsc.svg"
+          alt="img"
+          loading="lazy"
+        />
         <div class="social-img">
-
-              <a href="https://www.linkedin.com/company/gdsc-estin/"> <img class="linkdin" src="./linkdin.svg" alt="img" loading="lazy"/> </a> 
-              <a href="https://www.instagram.com/gdsc_estin/"> <img class="insta" src="./insta.svg" alt="img" loading="lazy"/> </a>
-              <a href="https://facebook.com/gdscestin"> <img class="fb" src="./fb.svg" alt="img" loading="lazy"/> </a>  
+          <a href="https://www.linkedin.com/company/gdsc-estin/">
+            {" "}
+            <img
+              class="linkdin"
+              src="./linkdin.svg"
+              alt="img"
+              loading="lazy"
+            />{" "}
+          </a>
+          <a href="https://www.instagram.com/gdsc_estin/">
+            {" "}
+            <img
+              class="insta"
+              src="./insta.svg"
+              alt="img"
+              loading="lazy"
+            />{" "}
+          </a>
+          <a href="https://facebook.com/gdscestin">
+            {" "}
+            <img class="fb" src="./fb.svg" alt="img" loading="lazy" />{" "}
+          </a>
         </div>
-        <img class="second-part" src="./estin.svg" alt="img" loading="lazy"/>
+        <img class="second-part" src="./estin.svg" alt="img" loading="lazy" />
         <div class="third-part">
-          
           <p>Made by</p>
-          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy"/>
+          <img src="./gdsc-tall.svg" alt="" class="img" loading="lazy" />
         </div>
       </div>
     </>
   );
-}
+};
 export default Footer;

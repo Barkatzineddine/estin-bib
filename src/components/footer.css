@@ -94,6 +94,8 @@ textarea::placeholder {
 }
 .second-part {
   padding: 1em;
+  width: 119px;
+  height: 43px;
 }
 .third-part {
   display: flex;
@@ -145,7 +147,8 @@ textarea::placeholder {
   flex-direction: column;
 }
 .img-gdsc {
-  width: 12vw !important;
+  width: 150px !important;
+  height: 93px;
   min-width: 150px;
 }
 .first-part button {
@@ -154,9 +157,12 @@ textarea::placeholder {
 .social-img img {
   cursor: pointer;
   min-width: 25px;
+  width: 25px;
+  height: 31px;
 }
 .img {
-  width: 90%;
+  width:283px ;
+  height: 17px;
   max-height: 2rem;
 }
 

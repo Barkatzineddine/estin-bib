@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import './Cp.css'
-export default function Year ({data}){
+export default function Year ({data,nosem2}){
 
     const [show, setShow] = useState(false);
 
@@ -19,13 +19,13 @@ export default function Year ({data}){
         
           
            
-              <div key={1} id={data.year} className="Cp">
-                <span className="title_cp">{data.year}</span>
+              <div key={1} id={data.year.year} className="Cp">
+              <a href={data.year.link}> <span className="title_cp">{data.year.year}</span></a>
                 <div className="semestres">
                   <div className="semestre_1">
-                    <header>Semestre 01</header>
+                   <a href={data.modules_S1.link}><header>Semestre 01</header></a> 
                     <div className="modules">
-                      {data.modules_S1.map((module, index) => {
+                      {data.modules_S1.modules.map((module, index) => {
                       if(module.module_name!==""){
                         return (
                           <div
@@ -57,10 +57,10 @@ export default function Year ({data}){
                       })}
                     </div>
                   </div>
-                  <div className="semestre_2">
-                    <header>Semestre 02</header>
+                  {!nosem2 && <div className="semestre_2">
+                    <a href={data.modules_S2.link}><header>Semestre 02</header></a>
                     <div className="modules">
-                      {data.modules_S2.map((module, index) => {
+                      {data.modules_S2.modules.map((module, index) => {
                         if(module.module_name!==""){
                         return (
                           <div
@@ -89,12 +89,12 @@ export default function Year ({data}){
                         };
                       })}
                     </div>
-                  </div>
+                  </div>}
                 </div>
 {/****************************************************MOBIIIIIIIIIIIILE******************************************************************************* */}
   
                { <div className="semestres_mobile">
-                  <header>
+                <header>
                     {!show ? (
                       <img className="left_icon_desactive" src="/left_icon_desactive.svg" loading="lazy" alt="img"/>
                     ) : (
@@ -108,7 +108,11 @@ export default function Year ({data}){
                         src="/left_icon_active.svg"
                       />
                     )}
+                    <a href={!show ?data.modules_S1.link:data.modules_S2.link}> 
+                    <span className="mobile_semestre">
                     {!show? "semestre 01" : "semestre 02"}
+                    </span>
+                    </a>
                     {!show? (
                       <img
                         className="right_icon_active"
@@ -125,7 +129,7 @@ export default function Year ({data}){
                   </header>
                   <div className="modules">
                     {!show
-                      ? data.modules_S1.map((module, index) => {
+                      ? data.modules_S1.modules.map((module, index) => {
                         if(module.module_name!==""){
                           return (
                             <div
@@ -156,7 +160,7 @@ export default function Year ({data}){
                             return null
                           };
                         })
-                      : data.modules_S2.map((module, index) => {
+                      : data.modules_S2.modules.map((module, index) => {
                         if(module.module_name!==""){
                           return (
                             <div
