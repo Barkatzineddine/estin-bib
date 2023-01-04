@@ -62,16 +62,16 @@ button {
 }
 
 input {
-  
+  width: -webkit-fill-available;
   border-radius: 4px;
   outline: none;
-  width: 210px;
+  width: -webkit-fill-available;
   margin: 0.4em;
   padding: 10px;
   border-style: none;
 }
 textarea {
-  width: 210px;
+  width: -webkit-fill-available;
   margin: 0.4em;
   padding: 10px;
   border-radius: 4px;
@@ -94,8 +94,6 @@ textarea::placeholder {
 }
 .second-part {
   padding: 1em;
-  width: 119px;
-  height: 43px;
 }
 .third-part {
   display: flex;
@@ -147,8 +145,7 @@ textarea::placeholder {
   flex-direction: column;
 }
 .img-gdsc {
-  width: 150px !important;
-  height: 93px;
+  width: 12vw !important;
   min-width: 150px;
 }
 .first-part button {
@@ -157,16 +154,10 @@ textarea::placeholder {
 .social-img img {
   cursor: pointer;
   min-width: 25px;
-  width: 25px;
-  height: 31px;
 }
 .img {
-  width:283px ;
-  height: 17px;
-  max-height: 2rem;
-}
-.footer_mobile a{
-  width: 100%;
+  width: 90%;
+  max-height: 60%;
 }
 
 @media screen and (max-width: 900px) {
@@ -203,7 +194,10 @@ textarea::placeholder {
   .content {
     width: 100%;
   }
-  
+  .footer_mobile input,
+  .footer_mobile textarea {
+    width: 70%;
+  }
   .img-gdsc {
     margin-top: 20px;
   }
